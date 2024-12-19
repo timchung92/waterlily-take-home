@@ -1,0 +1,37 @@
+{
+  "name": "@waterlily/shared",
+  "description": "Waterlily LTC Planning Shared Library",
+  "private": true,
+  "version": "0.0.1",
+  "author": "Waterlily Engineers <help@joinwaterlily.com>",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "types": "./src/index.ts",
+  "publishConfig": {
+    "exports": {
+      ".": "./build/index.js"
+    },
+    "types": "./build/index.d.ts"
+  },
+  "scripts": {
+    "start": "echo 'This is a library. Run start on the root, client, or server.",
+    "build": "echo 'Shared has nothing to build; just a library.'",
+    "test": "vitest --run",
+    "lint": "eslint .",
+    "type-check": "tsc"
+  },
+  "eslintConfig": {
+    "extends": [],
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": "error"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

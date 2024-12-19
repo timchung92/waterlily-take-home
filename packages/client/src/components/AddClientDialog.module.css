@@ -1,0 +1,11 @@
+.dialogTitle {
+  font-size: 24px !important;
+  font-weight: bold !important;
+  line-height: 28px !important;
+  padding-bottom: 0.5em !important;
+  font-family: 'Lato' !important;
+}
+
+.labelStyle {
+  font-family: 'Lato' !important
+}

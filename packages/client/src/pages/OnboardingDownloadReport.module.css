@@ -1,0 +1,48 @@
+
+.slideContent {
+    display: flex;
+    width: 100%;
+}
+
+
+.surveyContainer {
+    height: 100%;
+    width: 100%;
+    margin-top: -30px;
+    margin-bottom: 15px;
+
+}
+
+.downloadButton {
+    font-family: Lato;
+    font-weight: 500;
+    color: #120F3A;
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+    float: right;
+    margin-left: 15px;
+    font-size: 22px;
+}
+
+.downloadButton::after {
+    content: url(../images/arrow.svg);
+    margin-left: 15px;
+    font-size: 22px;
+}
+
+
+.downloadingProgress {
+    font-family: Lato;
+    font-weight: 500;
+    color: #120F3A;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    gap: 10px;
+    width: 15rem;
+    margin-left: 15px;
+    align-items: center;
+}
+
+

@@ -1,0 +1,75 @@
+.mainContent {
+  padding-top: 50px;
+  max-width: 700px;
+}
+
+.mainContentTextBlock {
+  padding-bottom: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px !important;
+  line-height: 50px;
+  letter-spacing: 1.25px;
+  color: #454446;
+
+}
+
+.advisorImage {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  max-height: calc(100%);
+  max-width: calc(100% - 664px);
+}
+
+.readMore {
+  position: absolute;
+  bottom: 45px;
+  max-width: 664px;
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 1.25px;
+  color: #454446;
+}
+
+.readMoreLink:hover {
+  color: #421a82;
+}
+
+.emphasizedTextBold {
+  color: #421a82;
+  font-weight: 400;
+}
+
+.disclosuresLinkText {
+  color: #421a82;
+  text-decoration: underline;
+}
+
+
+.inlineTooltip {
+  border-bottom: 0.6px dashed #421a82 !important
+}
+
+.tooltipContainer {
+  max-width: 500px !important;
+  background-color: #382377;
+    background-image: linear-gradient(30deg,
+      rgba(56, 35, 119, 0.75),
+      rgba(53, 32, 114, 0.75),
+      rgba(60, 40, 125, 0.75));
+  box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.4);
+  line-height: 14px;
+  letter-spacing: 0.025em;
+}
+
+.tooltipText {
+  font-family: 'Lato';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,1 @@
+declare type CensusRegion = 'Northeast' | 'South' | 'Midwest' | 'West' | 'Other';

@@ -1,0 +1,86 @@
+{
+  "surveyId": "4ce005d0-ce35-47a3-922f-f1159a5d0a5b",
+  "surveyVersionId": "f35e5612-1d17-4ca8-966b-2be4d444a297",
+  "surveyVersionDateTime": "2023-12-04T05:24:26.825Z",
+  "clientId": "kxc-44ef",
+  "supportProviderId": null,
+  "surveyDefinition": {
+    "surveyDefinitionId": 991001,
+    "surveyDefinitionLabel": "Intake Form",
+    "surveySubmittedBy": 2401
+  },
+  "surveyDefinitionId": 991001,
+  "surveyStatus": 2302,
+  "lastPageSeen": 1000,
+  "surveySubmittedDateTime": "2023-12-04T05:24:26.825Z",
+  "surveySubmittedBy": 2401,
+  "clientFirstName": "Justine2",
+  "clientLastName": "Uy",
+  "clientMaritalStatus": "Married, spouse absent",
+  "clientBirthDate": "1980-12-07T00:00:00.000Z",
+  "clientGender": "Female",
+  "clientRace": "Asian or Asian American (e.g., Chinese, Japanese, Filipino, Korean, South Asian, Vietnamese, etc.)",
+  "clientZipCode": "53001",
+  "clientHighestDegree": "Masters",
+  "clientLivingSiblingsCount": 4,
+  "householdLivingChildrenCount": 3,
+  "householdPriorYearIncome": 950000,
+  "householdTotalAssetsValue": 350000,
+  "financialAssetTypes": [
+    "Checking or savings account",
+    "Individual Retirement Account (IRA), 401K, or other retirement savings vehicles",
+    "Real estate that is NOT your primary residence",
+    "Interest or equity in a business or LLC"
+  ],
+  "legalDocuments": [
+    "Durable Healthcare Power of Attorney/ Medical POA",
+    "Trusts",
+    "Living Wills / CPR & DNR"
+  ],
+  "clientHealthPlanList": [
+    "Medicare Part A",
+    "Medicare Part B",
+    "Medicare Part C or Medigap",
+    "Medicare Part D"
+  ],
+  "clientIndependencePreference": "I prioritize staying in my own home, maintaining as much independence as possible.",
+  "clientFinancialSecurityPreference": "It's crucial for me to protect my assets while ensuring I receive the necessary care.",
+  "clientFamilyInvolvementPreference": "I prefer minimal direct care from family members, leaning more towards professional care providers.",
+  "clientMentalHealthIssuesList": [
+    "I found that everything requires significant effort",
+    "I felt sad",
+    "I experienced restless sleep"
+  ],
+  "clientSmokerEver": "Yes",
+  "clientUsesRegularPrescriptionDrugs": "No",
+  "clientWeightPounds": 135,
+  "clientHeightInches": "5'3\"",
+  "clientPriorTwoYearHospitalizationCount": 1,
+  "clientActivitiesWithDifficultyList": [
+    "None of these"
+  ],
+  "clientActivitiesReceivedAssistanceList": [
+    "Self managing money/finances"
+  ],
+  "clientDiagnosesList": [
+    "High blood pressure"
+  ],
+  "clientInjuriesList": [
+    "Knee (e.g., knee replacement, ACL tear)"
+  ],
+  "clientCanAnswerForFather": true,
+  "clientFatherIsAlive": "Yes",
+  "clientFatherAgeAtSurveyDate": 78,
+  "clientFatherRequiredAssistance": "Yes",
+  "clientFatherAssistanceDurationMonthCount": 45,
+  "clientFatherNursingHomeEver": "No",
+  "clientFatherCardiovascularEver": "Yes",
+  "clientFatherMemoryProblemsEver": "Yes",
+  "clientFatherMemoryDiagnosesList": [
+    "Alzheimer's",
+    "Dementia",
+    "Hardening of Arteries"
+  ],
+  "clientCanAnswerForMother": false,
+  "clientCensusRegion": "Midwest"
+}

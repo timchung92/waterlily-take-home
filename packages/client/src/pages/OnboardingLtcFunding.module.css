@@ -1,0 +1,515 @@
+.overviewContainer {
+  display: flex;
+  padding: 11px 0;
+  height: 100%;
+  width: 75%;
+}
+
+
+.title {
+  padding-bottom: 19px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #101336;
+}
+
+
+.allPhaseTotalCostContainer {
+  flex: 0 0 auto;
+  background-color: #A798E540;
+  border-radius: 10px;
+  padding: 13px;
+}
+
+.allPhaseTotalCostLabel {
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  color: #454446;
+}
+
+.allPhaseTotalCostValue {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  color: #454446;
+}
+
+.fundingColumn {
+  position: relative;
+  flex: 1;
+  display: grid;
+  padding-top: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 25px 1fr 1fr 25px 55px 50px ;
+  gap: 10px;
+  grid-column-gap: 30px;
+}
+
+.fundingNoneContainer {
+  grid-column: 1 / 5;
+  grid-row: 2 / 5;
+}
+
+.selfFundingAddButton {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+
+.selfFundingNeededContainer {
+  grid-column: 1 / 3;
+  grid-row: 2 / 5;
+}
+
+.selfFundingNeededWarning {
+  padding: 45px 50px 20px 50px;
+}
+
+.selfFundingNeededAddButton {
+  text-align: center;
+}
+
+.selfFundingTitle {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+
+.selfFundingExistingAssets {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.selfFundingAnnualRateOfReturn {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.contributionYearsContainer {
+  grid-column: 1 / 3;
+  grid-row: 4;
+  position: relative;
+  padding: 34px 10px 14px;
+}
+
+.contributionsLabel {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.contributionYearsRange {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.contributionYearsCount {
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+
+.contributionYearsValues {
+  width: 100%;
+  margin: 12px 0;
+  span {
+    color: #3D1C7C;
+  }
+}
+
+.contributionYearsMinLabel {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.contributionYearsMaxLabel {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.selfFundingMonthlyContributions {
+  grid-column: 1 / 2;
+  grid-row: 3;
+}
+
+.policyAddButton {
+  grid-column: 4 / 4;
+  grid-row: 1;
+  /* width: 55%; */
+  height: 140%;
+  justify-content: center !important;
+  /* align-items: center !important; */
+  /* vertical-align: middle !important; */
+  text-transform: none !important;
+  padding: 10px !important;
+  color: #101336;
+  /* background-color: rgba(167, 152, 229, 0.1) !important; */
+  /* border-radius: 50px !important; */
+}
+
+.policyTitle {
+  grid-column: 3 / 5;
+  grid-row: 1;
+  position: relative;
+
+  > .policyDeleteButton {}
+
+  > .editDailyBenefitsButton {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+.policyMaximumBenefitAmount {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.policyPremiumMonthlyCost {
+  grid-column: 4;
+  grid-row: 2;
+}
+
+.policyPremiumStartYear {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.policyInflationProtection {
+  grid-column: 4;
+  grid-row: 3;
+}
+
+.projectedCostCoverage {
+  grid-column: 3 / 5;
+  grid-row: 4;
+}
+
+.selfFundingTotalCost {
+  grid-column: 1 / 3;
+  grid-row: 6;
+}
+
+.policyTotalCost {
+  grid-column: 3 / 5;
+  grid-row: 6;
+}
+
+.fundingGrandTotalCost {
+  grid-column: 1 / 5;
+  grid-row: 7;
+}
+
+.fundingSubtotalValue {
+  display: block;
+}
+
+.selfFundingMontlyContributions > .fundingSubtotalValue,
+.allPhaseTotalCostLabel > .fundingSubtotalValue,
+.projectedCostCoverage > .fundingSubtotalValue {
+    display: inline;
+    padding-left: 8px;
+}
+
+.fundingColumn {
+  > .selfFundingAddButton,
+  > .selfFundingTitle,
+  > .policyAddButton,
+  > .policyTitle {
+    justify-content: start;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #101336;
+  }
+}
+
+.fundingNoneContainer {
+  padding: 70px calc(50% - 240px) 0;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #454446;
+}
+
+.selfFundingNeededWarning {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FF0303;
+}
+
+.selfFundingNeededAddButton {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FF0303;
+}
+
+.selfFundingExistingAssets,
+.selfFundingAnnualRateOfReturn,
+.policyMaximumBenefitAmount,
+.policyPremiumMonthlyCost,
+.policyPremiumStartYear,
+.policyInflationProtection {
+  & > label {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 10px;
+    color: #454446;
+  }
+
+  & > input {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #454446;
+  }
+}
+
+.contributionsLabel {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  color: #454446;
+}
+.contributionYearsRange {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #382377;
+}
+
+.contributionYearsCount {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 10px;
+  color: #382377;
+}
+.contributionYearsValues {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  color: #454446;
+}
+.contributionYearsMinLabel,
+.contributionYearsMaxLabel {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 12px;
+  color: #101336;
+}
+
+.projectedCostCoverage {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  color: #454446;
+
+  > .fundingSubtotalValue {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+.policyTitle {
+  > .policyDeleteButton {
+  }
+
+  > .editDailyBenefitsButton {
+    text-wrap: nowrap;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11px;
+    color: #101336;
+    background-color: rgba(167, 152, 229, 0.05);
+
+    > svg {
+      position: relative;;
+      top: 2px;
+      width: 12px;
+      height: 12px;
+    }
+  }
+}
+.selfFundingTotalCost,
+.policyTotalCost {
+  padding: 6px;
+  padding-left: 20px;
+  background: rgba(167, 152, 229, 0.25);
+  border-radius: 10px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 18px;
+  color: #454446;
+
+  > .fundingSubtotalValue {
+    display: block;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+.fundingGrandTotalCost {
+  padding: 12px;
+  padding-left: 20px;
+  background: rgba(167, 152, 229, 0.5);
+  border-radius: 10px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  color: #454446;
+
+  >.fundingSubtotalValue {
+    display: block;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    color: #3D1C7C;
+    padding-top: 5px;
+  }
+}
+
+.dailyBenefitDialog > :global(.MuiDialog-container) > :global(.MuiPaper-root) {
+  width: 644px;
+  padding: 78px 78px 55px;
+}
+
+
+
+.dailyBenefitContainer {
+  position: relative;
+  padding-bottom: 55px;
+
+  /* nexted to provide higher selector precedence */
+  > .dailyBenefitBreadcrumb {
+    padding-bottom: 12px;
+    ;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #454446;
+  }
+
+  .lumpSumInputContainer {
+    display: grid;
+    grid-template-columns: 222px;
+    column-gap: 24px;
+    padding-bottom: 30px;
+
+    > .lumpSumSubtitle {
+    padding-bottom: 10px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #101336;
+    grid-column: 1;
+    }
+  }
+
+  > .dailyBenefitTitle {
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #101336;
+  }
+
+  > .dailyBenefitSubtitle {
+    padding-bottom: 12px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #101336;
+    grid-column: 1;
+  }
+
+  > .inflationProtectionSubtitle {
+    padding-bottom: 12px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #101336;
+    grid-column: 2;
+  }
+
+  > .dailyBenefitClose {
+    position: absolute;
+    top: -44px;
+    right: -36px;
+  }
+
+  > .dailyBenefitInputsContainer {
+    display: grid;
+    grid-template-columns: 222px 222px;
+    column-gap: 24px;
+    row-gap: 15px;
+    padding-bottom: 42px;
+  }
+
+  > .dailyBenefitDoneButton {
+    position: absolute;
+    right: 0;
+    min-width: 140px;
+    padding: 17px 50px 18px 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    line-height: 20px;
+    background-color: #0F0D30;
+    color: #fff;
+  }
+}
+
+.inputError {
+  border: 1px solid red !important; /* Override Material-UI styles */
+  outline: none !important;
+}
+
+

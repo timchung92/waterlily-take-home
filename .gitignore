@@ -1,51 +1,88 @@
-# Node.js dependencies
-/node_modules
+# test clients
+packages/server/test-integration/intakeSurvey/*
+
+*TEMP*
+
+!packages/shared/src/email/templates
+!packages/shared/src/email/templates/*
+
+# certificates
+packages/server/dev-certs/
+
+# Build output
+.next
+.nuxt
+.vuepress/dist
+*.tgz
+build
+dist
+out
+packages/client/src/util/dependencies.json
 
 # Logs
+.pnpm-debug.log*
+*.log
+lerna-debug.log*
+logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
 
-# Vite build output
-/dist
+# Reports
+.nyc_output
+*.lcov
+coverage
+lib-cov
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
-# TypeScript cache
-*.tsbuildinfo
+# Runtime data
+.yarn-integrity
+*.pid
+*.pid.lock
+*.seed
+pids
 
-# Tailwind CSS build artifacts
-/tailwindcss-*
+# Dependencies
+bower_components
+jspm_packages/
+node_modules/
+web_modules/
 
-# SQLite database files
-*.sqlite
-*.sqlite3
-
-# Environment variables
+# Local configuration
 .env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
+.env.local
+.lock-wscript
+*.local
 
-# IDE specific files (e.g., VSCode)
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Caches
+.cache
+.docusaurus
+.dynamodb/
+.esbuild
+.eslintcache
+.fusebox/
+.grunt
+.node_repl_history
+.npm
+.parcel-cache
+.pnp.*
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.serverless/
+.stylelintcache
+.temp
+.tern-port
+.vscode-test
+.yarn/build-state.yml
+.yarn/cache
+.yarn/install-state.gz
+.yarn/unplugged
+*.tsbuildinfo
 
-# MacOS specific files
+# OS Garbage
 .DS_Store
-
-# Thumbnails
-._*
-
-# Backup files
-*.bak
-*.backup
-*.orig
-
-# Other
-node_modules/.vite/

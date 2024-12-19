@@ -1,0 +1,72 @@
+.container {
+  margin: 2em;
+}
+
+.containerContent {
+  padding-left: 1em !important;
+}
+
+.appHeader {
+  padding: 1em !important;
+}
+
+.homepage {
+  font-size: 18px;
+  line-height: 36px;
+  color: #120f3a;
+}
+
+.copyright,
+.phone {
+  font-size: 14px;
+  line-height: 36px;
+  color: #120f3a;
+}
+
+.socialLinks {
+  padding: 18px 0;
+}
+
+.socialLink {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  padding: 6px;
+  border-radius: 6px;
+  margin: 0 12px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:hover {
+
+    background-color: rgb(69, 33, 69);
+    & > svg {
+      stroke: white;
+    }
+  }
+}
+
+.dependencyButton {
+  font-size: 14px !important;
+  margin-left: -8px !important;
+}
+
+.dependenciesList {
+  padding-top: 1em;
+}
+
+.dependency {
+  padding-bottom: 1em;
+}
+
+.dependencyName {
+  font-weight: bold;
+}
+
+.dependencyDescription,
+.dependencyAuthor,
+.dependencyLicense {
+  font-size: 14px;
+}

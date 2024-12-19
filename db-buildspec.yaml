@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+    commands:
+      - sudo dnf install -y postgresql15
+  build:
+    steps:
+
+      - name: Database Migration
+        run: npm run migrate:db

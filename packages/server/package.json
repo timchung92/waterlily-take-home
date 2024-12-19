@@ -1,0 +1,22 @@
+{
+  "name": "@waterlily/server",
+  "description": "Waterlily LTC Planning Node Lambda Handler",
+  "private": true,
+  "version": "0.0.1",
+  "author": "Waterlily Engineers <help@joinwaterlily.com>",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "main": "src/serverless.ts",
+  "scripts": {
+    "start": "mkdir -p ../../build/server ../../logs/server && cd src && serverless offline | tee -a ../../../logs/server/`date +%Y-%m-%d--t--%H-%M`.log",
+    "build": "cd src && serverless package",
+    "serverless": "serverless",
+    "test": "vitest --run --dir ./test-unit",
+    "type-check": "tsc --resolveJsonModule",
+    "format": "prettier --write .",
+    "lint": "eslint ."
+  },
+  "prettier": "../../.prettierrc",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

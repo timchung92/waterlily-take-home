@@ -1,0 +1,15 @@
+declare enum ClientTagDef {
+  fillOutTheIntakeForm = 1201,
+  algorithmsCurrentlyRunning = 1202,
+  algorithmsFinishedRunning = 1203,
+  startOnboarding = 1204,
+  closingTheCareGap = 1205,
+  updateYourCareSupportStructure = 1206,
+  completedPlan = 1207,
+  algorithmsError = 1208,
+  intakeFormIncomplete = 1214,
+  startedIntakeForm = 1215,
+  requestedMeeting = 1216,
+  representativeAssigned = 1217,
+  initialContactMade = 1218,
+}

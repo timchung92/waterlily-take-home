@@ -1,0 +1,18 @@
+
+.citations {
+  /* intentionally left blank */
+}
+
+.citation {
+  font-size: 14px;
+  line-height: 16px;
+  color: #00000080;
+}
+
+.citation > p:first-child {
+  margin-top: 0;
+}
+
+.citation > p:last-child {
+  margin-bottom: 0;
+}

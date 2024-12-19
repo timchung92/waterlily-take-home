@@ -1,0 +1,121 @@
+
+
+.clientBox {
+  position: relative;
+  width: 100%;
+  height: 48px; /* 32px; */
+  border-radius: 8px;
+  background-color: #3D1C7C;
+  padding-left: 43px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 48px; /* 32px; */
+  color: #F7F7F7;
+  z-index: 1;
+}
+
+.clientIcon {
+  display: block;
+  position: absolute;
+  top: 13px; /* 3px; */
+  left: 15px;
+  width: 12px;
+  height: 12px;
+}
+
+.providersContainer {
+  /*
+    not actually used for styling; div must exist for
+    other position-based styles to work maintainably.
+  */
+}
+
+.providerContainer {
+  padding: 10px 0 0 40px;
+}
+
+.providerBox {
+
+  &::before {
+    display: block;
+    position: absolute;
+    border-left: 1px solid #464446;
+    content: " ";
+    width: 0;
+    height: 120px;
+    bottom: 24px;
+    left: -12px;
+  }
+
+  &::after {
+    display: block;
+    position: absolute;
+    border-top: 1px solid #464446;
+    content: " ";
+    width: 12px;
+    height: 0;
+    bottom: 24px;
+    left: -12px;
+  }
+}
+
+.professionalProviderBox {
+  color: #9D9D9D;
+  border-color: #9D9D9D;
+  background-color: #F4F2F2;
+
+
+  &::before {
+    border-left: 1px solid #9D9D9D;
+    bottom: 24px;
+    left: -30px;
+  }
+
+  &::after {
+    display: block;
+    position: absolute;
+    border-top: 1px solid #9D9D9D;
+    content: " ";
+    width: 30px;
+    height: 0;
+    bottom: 24px;
+    left: -30px;
+  }
+
+}
+
+.providerContainer:nth-child(1) > .providerBox::before,
+.providerContainer:nth-child(1) > .professionalProviderBox::before {
+  height: 52px;
+}
+
+.providerContainer:nth-child(2) > .professionalProviderBox::before {
+  height: calc(52px + 100px);
+}
+
+.providerContainer:nth-child(3) > .professionalProviderBox::before {
+  height: calc(52px + 100px * 2);
+}
+
+.providerContainer:nth-child(4) > .professionalProviderBox::before {
+  height: calc(52px + 100px * 3);
+}
+
+.providerContainer:nth-child(5) > .professionalProviderBox::before {
+  height: calc(52px + 100px * 4);
+}
+
+.providerContainer:nth-child(6) > .professionalProviderBox::before {
+  height: calc(52px + 100px * 5);
+}
+
+.providerContainer:nth-child(7) > .professionalProviderBox::before {
+  height: calc(52px + 100px * 6);
+}
+
+.providerContainer:nth-child(8) > .professionalProviderBox::before {
+  height: calc(52px + 96px * 7);
+}

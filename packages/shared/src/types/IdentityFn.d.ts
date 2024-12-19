@@ -1,0 +1,1 @@
+declare type IdentityFn<T> = (value: T) => T;

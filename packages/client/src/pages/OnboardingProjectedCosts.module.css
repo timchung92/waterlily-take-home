@@ -1,0 +1,172 @@
+.chartRow {
+  width: 100%;
+  height: 104px;
+  margin: 35px 0;
+}
+
+.chart {
+  width: 80%;
+  height: 80%;
+
+  :global(.chartTotalData) {
+    top: 4px;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 30px;
+    color: #454446;
+  }
+}
+
+.selectionInstructions {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  color: #454446;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  letter-spacing: 0.025em;
+}
+
+.carePhaseTooltip {
+  max-width: 600px !important;
+  background-color: #382377;
+    background-image: linear-gradient(30deg,
+      rgba(56, 35, 119, 0.75),
+      rgba(53, 32, 114, 0.75),
+      rgba(60, 40, 125, 0.75));
+  box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.4);
+  font-family: Lato;
+  line-height: 14px;
+
+}
+
+.carePhaseTooltipText {
+  font-family: 'Lato';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.editContainer {
+  width: 100%;
+}
+
+.editTitle {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #454446;
+}
+
+.editDescriptionRow {
+  padding: 5px 0 10px 0;
+  font-family: 'Lato' !important;
+  font-style: normal !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #454446;
+}
+
+.editDescriptionName {
+  font-weight: 700;
+  color: #6C60BF;
+  max-width: 800px;
+  width: 100%
+}
+
+.editInputRow {
+  display: flex;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.editContainer .careEnvironmentDropdown {
+  flex: 0 0 440px;
+  position: relative;
+  height: 44px;
+  line-height: 44px;
+
+  & fieldset {
+    border-color: #454446;
+  }
+
+  & :global(.MuiSelect-select) {
+    padding: 0 14px;
+  }
+}
+
+
+.recommendedMarker {
+  position: absolute;
+  top: calc(50% - 11px);
+  right: 48px;
+  background-color: #6C60BF;
+  padding: 5px 10px;
+  border-radius: 10px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #F7F7F7;
+}
+
+.predictedDescriptionText {
+  flex: 1 0 auto;
+  max-width: 440px;
+  align-self: center;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+
+  color: #454446;
+}
+
+.bottomContent {
+  display: flex;
+  width: 80%;
+  justify-content: flex-start;
+  gap: 60px;
+}
+
+.editContainer {
+  width: 43%;
+
+}
+
+/* .careEnvironmentSelect {
+
+}
+
+.familyInvolvement {
+
+}
+
+.additionalDetails {
+
+} */
+
+.supportProvidersTitle {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #454446;
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+
+.providersContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+

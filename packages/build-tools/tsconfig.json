@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": [
+      "ESNext"
+    ],
+    "moduleResolution": "Node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": false,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "target": "ES2020",
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "typeRoots": [
+      "../shared/src/types",
+      "../../node_modules/@types"
+    ],
+    "paths": {
+      "@shared": ["../shared/src"],
+      "@client": ["../client/src"],
+      "@server": ["../server/src"]
+    }
+  },
+  "include": [
+    "*.ts"
+  ],
+  "exclude": [
+    "../../node_modules/**/*"
+  ]
+}

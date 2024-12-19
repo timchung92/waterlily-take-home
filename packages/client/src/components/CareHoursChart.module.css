@@ -1,0 +1,183 @@
+.content {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  height: 100%;
+}
+
+.column,
+.lengthOfCareColumn {
+  flex: 0 0 calc(50% - 8px);
+  display: flex;
+  flex-direction: column;
+  padding-top: 68px;
+}
+
+.lengthOfCareColumn {
+  text-align: center;
+}
+
+.totalCareHours {
+  flex: 0 0 auto;
+  width: 100%;
+  padding-bottom: 26px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #101336;
+}
+
+.chartContainer {
+  /* flex: 1; */
+  position: relative;
+  container-type: size;
+  /* hacky fix */
+  height: 12em;
+}
+
+.chart {
+  position: relative;
+  width: 100cqmin;
+  height: 100cqmin;
+  border-radius: 50cqmin;
+  margin: 0 auto;
+
+  &:before {
+    content: " ";
+    position: absolute;
+    display: block;
+    top: 10cqmin;
+    left: 10cqmin;
+    width: 80cqmin;
+    height: 80cqmin;
+    border-radius: 40cqmin;
+    background-color: white;
+  }
+}
+
+.totalDataLabelContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  text-align: center;
+}
+.totalDataLabelValue {
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 48px;
+  letter-spacing: 0.1em;
+  color: #3D1C7C;
+}
+
+.totalDataLabelText {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #101336;
+}
+
+.dataLabelContainer {
+  position: absolute;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  &.quad1 {
+    top: calc(25% - 20px);
+    right: calc(50% + 50cqmin + 16px);
+  }
+
+  &.quad2 {
+    top: calc(25% - 20px);
+    left: calc(50% + 50cqmin + 16px);
+  }
+
+  &.quad3 {
+    top: calc(75% - 20px);
+    left: calc(50% + 50cqmin + 16px);
+  }
+
+  &.quad4 {
+    top: calc(75% - 20px);
+    right: calc(50% + 50cqmin + 16px);
+  }
+}
+
+.dataLabelValue {
+  font-weight: 800;
+  color: #6C60BF;
+}
+
+.dataLabelUnit {
+  color: #454446;
+}
+
+.dataLabelText {
+  padding-top: 8px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #454446;
+  text-wrap: nowrap;
+}
+
+.basedOn {
+  flex: 0 0 auto;
+  padding-top: 16px;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #382377;
+}
+
+.familyPredictedPercent {
+  flex: 0 0 auto;
+  padding-top: 16px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 19px;
+  color: #454446;
+}
+
+.subtitle {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #101336;
+}
+
+.value {
+  padding-top: 20px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 145px;
+  line-height: 154px;
+  letter-spacing: 1.25px;
+  color: #382377;
+  flex-grow: 0;
+}
+
+.subtext {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 22px;
+  letter-spacing: 1.25px;
+  color: #454446;
+}

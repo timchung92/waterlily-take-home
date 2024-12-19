@@ -1,0 +1,430 @@
+@import url(//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
+
+.main {
+  min-height: 70vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.banner {
+  font-family: 'Lato' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 32px !important;
+  line-height: 38px !important;
+  letter-spacing: 0.05em !important;
+  color: #120F3A !important;
+}
+
+.progressBar {
+  border-radius: 20px 20px !important;
+  height: 15px !important;
+  margin: 16px 24px 0 !important;
+}
+
+.progressColor {
+  background: #3D1C7C !important;
+}
+
+.progressBarColor {
+  background: #d3cce0 !important;
+}
+
+.mainContent {
+  flex: 1 0;
+  padding-right: 48px;
+}
+
+.sidebarTextContainer {
+  flex: 0 0 600px;
+  max-width: 50%;
+}
+
+.smallTextSlide {
+  font-size: 14px;
+  line-height: 16px;
+  margin: 2em 0 0 0;
+}
+
+.smallTextSlideSubheader {
+font-weight: bold;
+}
+
+.title,
+.headline,
+.mainText,
+.sidebarText,
+.subText,
+.confidenceText,
+.normalText,
+.caption,
+.h3Text,
+.h2Text {
+  font-family: 'PT Serif' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  letter-spacing: 1.25px !important;
+  color: #454446 !important;
+ }
+
+.slideContainer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 48px 48px 0 48px;
+  padding: 0 24px 0 24px;
+}
+
+.slideContainerOppportunities {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 0 48px 0 48px;
+  padding: 0 24px 0 24px;
+}
+
+.caption,
+.sidebarText {
+  font-family: 'Lato' !important;
+}
+
+.headline {
+  flex: 0 0 auto;
+  font-size: 20px !important;
+  line-height: 24px !important;
+  margin-bottom: 46px !important;
+}
+
+.title {
+  font-size: 40px !important;
+  line-height: 52px !important;
+  margin-bottom: 23px !important;
+}
+
+.slideMiddle {
+  display: flex;
+  flex: 1 0 auto;
+  place-content: space-between;
+}
+
+.slideCitationsContainer {
+  flex: 0 0 auto;
+}
+
+.highlightedText {
+  color: #3D1C7C !important;
+}
+
+.mainText {
+  font-size: 40px !important;
+  line-height: 52px !important;
+  padding-right: 48px;
+}
+
+.subText {
+  font-size: 35px !important;
+  line-height: 46px !important;
+}
+
+.minorText {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.confidenceText {
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 2vh !important;
+}
+
+.sidebarText {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0 !important;
+}
+
+.sidebarText ul > li {
+  list-style-type: "– ";
+}
+
+.sidebarSubhead,
+.sidebarMiniSubhead,
+.sidebarSecondaryMiniSubhead {
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+
+.sidebarMiniSubhead,
+.sidebarSecondaryMiniSubhead {
+  padding-bottom: 0.5em;
+}
+
+.sidebarSecondaryMiniSubhead {
+  padding-top: 48px;
+}
+
+.graphWithMargin {
+  margin-top: 48px;
+}
+
+.familyChartSidebar {
+  margin-top: -48px; /* a 3rd party child component adds padding we need to negate. */
+  height: 100%;
+}
+
+.supportChartSidebar {
+  height: 100%;
+}
+
+.h2Text {
+  font-size: 40px;
+  line-height: 53px;
+}
+
+.h3Text {
+  font-size: 24px;
+  line-height: 29px;
+  margin: 5%;
+}
+
+.normalText {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.caption {
+  font-size: 16px;
+  line-height: 20px;
+
+  padding-top: 29px;
+  padding-bottom: 24px;
+}
+
+.textDiv {
+  margin-top: 0px !important;
+}
+
+.buttonDiv {
+  margin: 10vh 0 !important;
+}
+
+:global(.MuiDialogActions-spacing).onboaringDialogActions {
+  padding: 48px;
+}
+
+.nextButton,
+.backButton {
+  min-width: 140px;
+  min-height: 55px;
+  border-radius: 50px !important;
+  font-family: 'Lato', sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  text-transform: none !important;
+}
+
+.nextButton {
+  background: #0F0D30 !important;
+  color: #FFFFFF !important;
+  text-transform: none !important;
+}
+
+.nextButton:disabled {
+  background: #0F0D3033 !important;
+}
+
+.backButton {
+  background: #FFFFFF !important;
+  border: 1px solid #0F0D30 !important;
+  color: #0F0D30 !important;
+}
+
+.gridHeader {
+  font-family: 'Lato', sans-serif !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  text-align: center !important;
+  color: #3D1C7C !important;
+}
+
+.node {
+  margin-top: 48pxs;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  width: 150px !important;
+}
+
+.parentNode {
+  border-radius: 50% !important;
+  background-color: #3D1C7C !important;
+  color: #FFFFFF !important;
+  width: 40px !important;
+  height: 40px !important;
+  justify-content: center !important;
+  display: flex !important;
+  margin: 0px !important;
+  padding: 5px !important
+}
+
+.childNode {
+  border-radius: 50% !important;
+  background-color: #FFFFFF !important;
+  border: 1px solid #3D1C7C !important;
+  color: #3D1C7C !important;
+  width: 40px !important;
+  height: 40px !important;
+  justify-content: center !important;
+  display: flex !important;
+  margin: 0px !important;
+  padding: 5px !important
+}
+
+.alternateNode {
+  border-radius: 50% !important;
+  background-color: #A798E5 !important;
+  border: 1px solid #3D1C7C !important;
+  color: #3D1C7C !important;
+  border-radius: 50% !important;
+  width: 40px !important;
+  height: 40px !important;
+  justify-content: center !important;
+  display: flex !important;
+  margin: 0px !important;
+  padding: 5px !important
+}
+
+.nodeText,
+.nodeSubText {
+  text-align: center !important;
+  color: #000000 !important;
+}
+
+.nodeText {
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 20px !important;
+}
+
+.nodeSubText {
+  font-weight: 300 !important;
+  font-size: 8px !important;
+  line-height: 10px !important;
+}
+
+.nodeInnerText {
+  font-family: 'PT Serif' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 21px !important;
+  letter-spacing: 1.25px !important;
+  margin-top: 15%;
+}
+
+.optionHeading {
+  margin: 50px 0px 0px 0px !important;
+  font-family: 'Lato', sans-serif !important;
+  font-style: normal !important;
+  font-weight: 900 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+  letter-spacing: 1.25px !important;
+  color: #454446;
+}
+
+.option,
+.optionH3,
+.optionSelected,
+.optionH3Selected {
+  margin: 5% !important;
+  padding: 5% !important;
+  background: #F7F7F7 !important;
+  border-radius: 10px !important;
+  box-sizing: border-box !important;
+  font-family: 'Lato', sans-serif !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  text-align: center !important;
+  letter-spacing: 1.25px !important;
+  color: #120F3A !important;
+  cursor: pointer;
+}
+
+.optionH3 {
+  padding: 10% !important;
+  font-size: 24px !important;
+  line-height: 29px !important;
+}
+
+.optionSelected {
+  background: #DFD9FA !important;
+}
+
+.optionH3Selected {
+  padding: 10% !important;
+  background: #DFD9FA !important;
+  font-size: 24px !important;
+  line-height: 29px !important;
+}
+
+.optionCardsContainer {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: wrap;
+    margin-top: -40px;
+    width: calc(100% + 40px);
+    margin-left: -40px;
+}
+
+.optionCardContainer {
+    padding-left: 40px;
+    padding-top: 40px;
+    flex-basis: 33.3333%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 33.3333%;
+}
+
+.optionCard {
+  background: #F7F7F7;
+  border-radius: 10px;
+  text-align: center;
+  min-height: 32vh;
+  display: flex;
+  align-items: center; /* Centers vertically */
+  text-align: center;
+}
+
+.optionCard:hover {
+  box-shadow:
+    0px 8px 4px -4px rgba(0,0,0,0.2),
+    0px 4px 4px 0px rgba(0,0,0,0.14),
+    0px 4px 12px 0px rgba(0,0,0,0.12);
+}
+.optionCard:active {
+  box-shadow: none;
+}
+
+.optionCardSelected {
+  background-color: #3d1c7c65 !important;
+  transition: background-color 0.75s ease !important;
+}
+
+.optionCardContent {
+  width: 100%;
+  font-size: 24px;
+}
+

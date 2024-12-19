@@ -1,0 +1,74 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+  pre_build:
+    commands:
+      - pip install njsscan && njsscan packages
+      # Update Build Environment
+      - sed -E "s/= BuildEnvironment\..+;/= BuildEnvironment\.${TargetEnvironment};/" "packages/shared/src/builtEnvironment.ts" > tmp  && mv tmp "packages/shared/src/builtEnvironment.ts"
+  build:
+    steps:
+      - name: Install dependencies
+        run: npm ci
+
+      # TypeScript validation
+
+      - name: TypeScript validation - shared
+        run: npm run type-check
+        working-directory: ./packages/shared
+
+      - name: TypeScript validation - server
+        run: npm run type-check
+        working-directory: ./packages/server
+
+      - name: TypeScript validation - client
+        run: npm run type-check
+        working-directory: ./packages/client
+
+      # Build
+
+      - name: Build - shared
+        run: npm run build
+        working-directory: ./packages/shared
+
+      - name: Build - server
+        run: npm run build
+        working-directory: ./packages/server
+
+      - name: Build - client
+        env:
+          NODE_OPTIONS: "--max_old_space_size=4096"
+        run: npm run build
+        working-directory: ./packages/client
+
+      # Tests
+
+      - name: Tests - shared
+        run: npm run test
+        working-directory: ./packages/shared
+
+      - name: Tests - server
+        run: npm run test
+        working-directory: ./packages/server
+
+      - name: Tests - client
+        run: npm run test
+        working-directory: ./packages/client
+
+artifacts:
+  files:
+    - 'build/**/*'
+  secondary-artifacts:
+    ClientBuild:
+      files:
+        - '**/*'
+      base-directory: build/client
+      name: ClientBuild
+    ServerBuild:
+      files:
+        - 'api.zip'
+      name: ServerBuild
+      base-directory: build/server

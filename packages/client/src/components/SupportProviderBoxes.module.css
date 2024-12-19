@@ -1,0 +1,17 @@
+.providersContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.supportProvidersTitle {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #454446;
+  margin-top: 30px;
+}
+

@@ -1,0 +1,8 @@
+{
+  "name": "@walp/shared",
+  "description": "Shared library as symlinked to node_modules locally.",
+  "private": true,
+  "version": "0.0.1",
+  "author": "Waterlily Engineers <help@joinwaterlily.com>",
+  "license": "SEE LICENSE IN LICENSE.txt"
+}

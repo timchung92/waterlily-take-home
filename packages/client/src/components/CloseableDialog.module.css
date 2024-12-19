@@ -1,0 +1,40 @@
+.closeableDialogContainer {
+  position: relative;
+  padding: 24px;
+}
+
+.closeableDialogCloseButton {
+  position: absolute;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  padding: 16px;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+}
+
+.closeableDialogCloseButton:hover {
+  color: #00000067;
+  top: -3px;
+  right: 3px;
+}
+
+.closeableDialogCloseButton:active {
+  top: 1px;
+  right: 1px;
+}
+
+.closeableDialogTitle {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0 0 24px 0;
+}
+
+.closeableDialogBody {
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 20px;
+}

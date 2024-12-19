@@ -1,0 +1,29 @@
+.captionTextAuthLogin {
+  padding-bottom: 20px;
+  margin-top: 5vh;
+  padding-bottom: unset;
+  font-size: 16px;
+  line-height: 19px;
+  color: #9d9d9d;
+  padding-bottom: 20px;
+}
+
+.captionTextForgotPassword {
+  display: flex;
+  align-items: baseline;
+  line-height: 19px;
+  color: #9d9d9d;
+  padding-bottom: 20px;
+  place-content: space-around;
+  margin: 1em 0 0 0;
+}
+
+.createAccountButton {
+  font-size: 16px !important;
+  line-height: 19px !important;
+  color: #3d1c7c !important;
+  margin-bottom: 8vh !important;
+}
+
+
+

@@ -1,0 +1,30 @@
+.confirmTitle {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 28px;
+  padding-bottom: 0.5em;
+}
+
+.confirmContent {
+  position: relative;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.confirmContentWithIcon {
+
+  padding: 1.25em 0 0 4em;
+
+  & svg {
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    top: 0;
+    left: 0;
+    margin-right: 12px;
+  }
+}
+
+.confirmActions {
+  padding: 12px 24px 24px 0;
+}

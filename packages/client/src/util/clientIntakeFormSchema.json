@@ -1,0 +1,377 @@
+{
+  "proxyEmail": {
+    "type": "string",
+    "label": "Proxy Email",
+    "group": "proxy"
+  },
+  "proxyFirstName": {
+    "type": "string",
+    "label": "Proxy First Name",
+    "group": "proxy"
+  },
+  "proxyLastName": {
+    "type": "string",
+    "label": "Proxy Last Name",
+    "group": "proxy"
+  },
+  "proxyPhoneNumber": {
+    "type": "string",
+    "label": "Proxy Phone",
+    "group": "proxy"
+  },
+  "clientFirstName": {
+    "type": "string",
+    "label": "First Name",
+    "group": "contact"
+  },
+  "clientLastName": {
+    "type": "string",
+    "label": "Last Name",
+    "group": "contact"
+  },
+  "clientEmail": {
+    "type": "string",
+    "label": "Email",
+    "group": "contact"
+  },
+  "clientPhoneNumber": {
+    "type": "string",
+    "label": "Phone Number",
+    "group": "contact"
+  },
+  "clientZipCode": {
+    "type": "string",
+    "label": "Zip Code",
+    "group": "contact"
+  },
+  "clientLtcZipCode": {
+    "type": "string",
+    "label": "Zip Code (during LTC)",
+    "group": "contact"
+  },
+  "partnerFirstName": {
+    "type": "string",
+    "label": "Partner First Name",
+    "group": "partner"
+  },
+  "partnerLastName": {
+    "type": "string",
+    "label": "Partner Last Name",
+    "group": "partner"
+  },
+  "householdPartnered": {
+    "type": "string",
+    "label": "Lives with partner",
+    "group": "partner"
+  },
+  "clientRace": {
+    "type": "string",
+    "label": "Race",
+    "group": "demographic"
+  },
+  "clientBirthDate": {
+    "type": "date",
+    "label": "Birth Date",
+    "group": "demographic"
+  },
+  "clientGenderIdentity": {
+    "type": "string",
+    "label": "Gender Identity",
+    "group": "demographic"
+  },
+  "clientGenderAtBirth": {
+    "type": "string",
+    "label": "Birth Gender",
+    "group": "demographic"
+  },
+  "clientMaritalStatus": {
+    "type": "string",
+    "label": "Marital Status",
+    "group": "demographic"
+  },
+  "clientHighestDegree": {
+    "type": "string",
+    "label": "Education Level",
+    "group": "demographic"
+  },
+  "clientCensusRegion": {
+    "type": "string",
+    "label": "Census Region",
+    "group": "demographic"
+  },
+  "householdHouseholdSize": {
+    "type": "integer",
+    "label": "Household Size",
+    "group": "demographic"
+  },
+  "householdLivingChildrenCount": {
+    "type": "integer",
+    "label": "Living Children",
+    "group": "demographic"
+  },
+  "clientLivingSiblingsCount": {
+    "type": "integer",
+    "label": "Living Siblings",
+    "group": "demographic"
+  },
+  "householdTotalAssetsValue": {
+    "type": "number",
+    "label": "Total Assets",
+    "group": "financial"
+  },
+  "householdLiquidAssetsValue": {
+    "type": "number",
+    "label": "Liquid Assets",
+    "group": "financial"
+  },
+  "householdLiquidAssetsAnnualGrowthRate": {
+    "type": "percent",
+    "label": "Asset Growth Rate",
+    "group": "financial"
+  },
+  "householdPriorYearIncome": {
+    "type": "number",
+    "label": "Prior Year Income",
+    "group": "financial"
+  },
+  "financialAssetTypes": {
+    "type": "list",
+    "label": "Asset Types",
+    "group": "financial"
+  },
+  "hasLongTermCareInsurance": {
+    "type": "string",
+    "label": "Has LTC Insurance",
+    "group": "financial"
+  },
+  "hasLongTermCareInsuranceProxy": {
+    "type": "string",
+    "label": "Has LTC Insurance",
+    "group": "financial"
+  },
+  "clientHeightInches": {
+    "type": "integer",
+    "label": "Height (inches)",
+    "group": "health"
+  },
+  "clientWeightPounds": {
+    "type": "integer",
+    "label": "Weight (pounds)",
+    "group": "health"
+  },
+  "clientUsesRegularPrescriptionDrugs": {
+    "type": "string",
+    "label": "Uses Prescriptions",
+    "group": "health"
+  },
+  "clientSmokedRecently": {
+    "type": "string",
+    "label": "Recent Smoker",
+    "group": "health"
+  },
+  "clientSmokerEver": {
+    "type": "string",
+    "label": "Ever Smoked",
+    "group": "health"
+  },
+  "clientHealthPlanList": {
+    "type": "list",
+    "label": "Health Plans",
+    "group": "health"
+  },
+  "clientOtherHealthPlanList": {
+    "type": "list",
+    "label": "Other Health Plans",
+    "group": "health"
+  },
+  "clientDiagnosesList": {
+    "type": "list",
+    "label": "Medical Diagnoses",
+    "group": "health"
+  },
+  "clientInjuriesList": {
+    "type": "list",
+    "label": "Injuries",
+    "group": "health"
+  },
+  "clientMentalHealthIssuesList": {
+    "type": "list",
+    "label": "Mental Health Issues",
+    "group": "health"
+  },
+  "clientPriorTwoYearHospitalizationCount": {
+    "type": "integer",
+    "label": "Recent Hospitalizations",
+    "group": "health"
+  },
+  "clientAgeReceivedHelpWalking": {
+    "type": "integer",
+    "label": "Walking Assistance Age",
+    "group": "health"
+  },
+  "clientAgeReceivedHelpToileting": {
+    "type": "integer",
+    "label": "Toileting Help Age",
+    "group": "health"
+  },
+  "clientAgeReceivedHelpAccessingBed": {
+    "type": "integer",
+    "label": "Bed Access Help Age",
+    "group": "health"
+  },
+  "clientAgeReceivedHelpEating": {
+    "type": "integer",
+    "label": "Eating Help Age",
+    "group": "health"
+  },
+  "clientAgeReceivedHelpBathing": {
+    "type": "integer",
+    "label": "Bathing Help Age",
+    "group": "health"
+  },
+  "clientAgeReceivedHelpDressing": {
+    "type": "integer",
+    "label": "Dressing Help Age",
+    "group": "health"
+  },
+  "clientActivitiesWithDifficultyList": {
+    "type": "list",
+    "label": "Difficult Activities",
+    "group": "health"
+  },
+  "clientActivitiesReceivedAssistanceList": {
+    "type": "list",
+    "label": "Assistance Activities",
+    "group": "health"
+  },
+  "clientMotherNursingHomeEver": {
+    "type": "string",
+    "label": "Mother Nursing Home",
+    "group": "family"
+  },
+  "clientMotherAgeOfDeathAtSurveyDate": {
+    "type": "integer",
+    "label": "Mother Death Age",
+    "group": "family"
+  },
+  "clientMotherAgeAtSurveyDate": {
+    "type": "integer",
+    "label": "Mother Current Age",
+    "group": "family"
+  },
+  "clientMotherNursingHomeMonthCount": {
+    "type": "integer",
+    "label": "Mother Nursing Duration",
+    "group": "family"
+  },
+  "clientMotherMemoryProblemsEver": {
+    "type": "string",
+    "label": "Mother Memory Issues",
+    "group": "family"
+  },
+  "clientMotherMemoryDiagnosesList": {
+    "type": "list",
+    "label": "Mother Memory Diagnosis",
+    "group": "family"
+  },
+  "clientMotherCardiovascularEver": {
+    "type": "string",
+    "label": "Mother Heart Issues",
+    "group": "family"
+  },
+  "clientMotherRequiredAssistance": {
+    "type": "string",
+    "label": "Mother Needs Assistance",
+    "group": "family"
+  },
+  "clientMotherAssistanceDurationMonthCount": {
+    "type": "integer",
+    "label": "Mother Care Duration",
+    "group": "family"
+  },
+  "clientFatherNursingHomeEver": {
+    "type": "string",
+    "label": "Father Nursing Home",
+    "group": "family"
+  },
+  "clientFatherNursingHomeMonthCount": {
+    "type": "integer",
+    "label": "Father Nursing Duration",
+    "group": "family"
+  },
+  "clientFatherMemoryProblemsEver": {
+    "type": "string",
+    "label": "Father Memory Issues",
+    "group": "family"
+  },
+  "clientFatherMemoryDiagnosesList": {
+    "type": "list",
+    "label": "Father Memory Diagnosis",
+    "group": "family"
+  },
+  "clientFatherCardiovascularEver": {
+    "type": "string",
+    "label": "Father Heart Issues",
+    "group": "family"
+  },
+  "clientFatherRequiredAssistance": {
+    "type": "string",
+    "label": "Father Needs Assistance",
+    "group": "family"
+  },
+  "clientFatherAssistanceDurationMonthCount": {
+    "type": "integer",
+    "label": "Father Care Duration",
+    "group": "family"
+  },
+  "clientFinancialSecurityPreference": {
+    "type": "string",
+    "label": "Financial Preference",
+    "group": "preference"
+  },
+  "clientIndependencePreference": {
+    "type": "string",
+    "label": "Independence Preference",
+    "group": "preference"
+  },
+  "clientFamilyInvolvementPreference": {
+    "type": "string",
+    "label": "Family Care Preference",
+    "group": "preference"
+  },
+  "legalDocuments": {
+    "type": "list",
+    "label": "Legal Documents",
+    "group": "legal"
+  },
+  "respondentRelationToClient": {
+    "type": "string",
+    "label": "Answering For",
+    "group": "proxy"
+  },
+  "clientMotherIsAlive": {
+    "type": "string",
+    "label": "Mother Living",
+    "group": "family"
+  },
+  "clientFatherIsAlive": {
+    "type": "string",
+    "label": "Father Living",
+    "group": "family"
+  },
+  "clientFatherAgeAtSurveyDate": {
+    "type": "integer",
+    "label": "Father Current Age",
+    "group": "family"
+  },
+  "clientFatherAgeOfDeathAtSurveyDate": {
+    "type": "integer",
+    "label": "Father Death Age",
+    "group": "family"
+  },
+  "clientProfessionalSupportNetworkList": {
+    "type": "list",
+    "label": "Professional Support Network",
+    "group": "financial"
+  }
+}

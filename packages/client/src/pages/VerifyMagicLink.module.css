@@ -1,0 +1,26 @@
+.expiredImage {
+    max-height: 400px;
+    border-radius: 10px;
+}
+
+.requestButton {
+    font-size: 25px !important;
+    padding-right: 3em !important;
+    padding-left: 3em !important;;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 2px;
+    opacity: 0.6;
+    filter: invert(0.8);
+  }
+  
+input[type="date"]::-webkit-calendar-picker-indicator:hover {
+    opacity: 1
+  }
+
+.securityQuestionsContainer { 
+  width: 35%
+ }

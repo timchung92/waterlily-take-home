@@ -1,0 +1,124 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 47px;
+  min-width: 1440px;
+  min-height: 750px;
+}
+
+.heading {
+  position: relative;
+  flex: 0 0 108px;
+  width: 100%;
+}
+
+
+.exit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 23px;
+  height: 23px;
+  rotate: 45deg;
+
+  &:before {
+    position: absolute;
+    content: " ";
+    top: 0;
+    right: 9px;
+    width: 32px;
+    height: 32px;
+    border-right: 5px solid black;
+  }
+
+  &:after {
+    position: absolute;
+    content: " ";
+    top: 13.5px;
+    right: -4.5px;
+    width: 32px;
+    height: 32px;
+    border-top: 5px solid black;
+  }
+}
+
+.progressBar {
+  position: relative;
+  flex: 0 0 10px;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #F5F5F5;
+}
+
+.progress {
+  position: absolute;
+  height: 100%;
+  background-color: #382377;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.title {
+  flex: 0 0 88px;
+  padding-top: 48px;
+  vertical-align: bottom;
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 1.25px;
+  color: #454446;
+}
+
+.content {
+  flex: 1 1;
+  position: relative;
+}
+
+.citations {
+  flex: 0 0 auto;
+  font-size: 10px;
+  padding: 20px 0;
+
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 8px;
+  line-height: 10px;
+  color: #000000;
+}
+
+.navigation {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.navigationBackButton,
+.navigationNextButton {
+  flex: 0 0 auto;
+  min-width: 140px;
+  padding: 18px 50px 22px 50px;
+  border-radius: 50px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.navigationBackButton {
+  align-items: center;
+  text-align: center;
+  color: #0F0D30;
+  border: 1px solid #0F0D30;
+}
+
+.navigationNextButton {
+  background-color: #0F0D30;
+  color: #fff;
+}

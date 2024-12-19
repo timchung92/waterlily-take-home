@@ -1,20 +1,44 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "ESNext",
+    "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "allowJs": false,
     "skipLibCheck": true,
-    "esModuleInterop": true,
+    "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
     "strict": true,
-    "forceConsistentCasingInFileNames": true,
     "module": "ESNext",
-    "moduleResolution": "Node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "typeRoots": [
+        "./packages/client/src/types",
+        "./packages/server/src/types",
+        "./packages/shared/src/types",
+        "./node_modules/@types"
+    ],
+    "paths": {
+      "@shared": [
+        "./packages/shared/src"
+      ]
+    }
   },
-  "include": ["src"],
-  "exclude": ["node_modules"]
+  "include": [
+        "./packages/client/src",
+        "./packages/server/src",
+        "./packages/shared/src",
+        "./packages/client/test",
+        "./packages/server/test",
+        "./packages/shared/test"
+      ],
+  "ts-node": {
+    "files": true,
+    "require": [
+      "tsconfig-paths/register"
+    ]
+  }
 }

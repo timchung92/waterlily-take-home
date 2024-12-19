@@ -1,0 +1,247 @@
+.dashboardPage {
+  height: 100vh;
+  min-height: 640px;
+  display: flex;
+  flex-direction: column;
+}
+
+.appHeader {
+  flex: 0 0;
+  margin: 2em;
+  width: unset !important;
+}
+
+.mainContentContainer {
+  flex: 1 0;
+  display: flex;
+  margin: 0 24px 20px 24px;
+  overflow: hidden;
+}
+
+.sidebar {
+  position: relative;
+  flex: 0 0 300px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.sidebarLine {
+  display: flex;
+  padding-bottom: 1em;
+}
+
+.sidebarLabel {
+  flex: 0 1 100px;
+}
+
+.sidebarValue {
+  flex: 1 1;
+  font-weight: bold;
+}
+
+.actionTag {
+  margin: 0 0 1em 0;
+}
+
+.actionButtonContainer {
+  width: 100%;
+  margin-top: 1.5em;
+  padding-top: 1.5em;
+  text-align: center;
+  border-top: 1px solid black;
+}
+
+.actionLink {
+  width: 100%;
+}
+
+/* selector necessary for specificity prioritization */
+.actionButtonContainer > a > .actionButton {
+  min-width: 150px;
+  white-space: nowrap;
+  line-height: 1.5em;
+}
+
+.advisorDashboardText {
+  font-weight: 600;
+  font-size: 24px !important;
+  line-height: 22px !important;
+  color: #120f3a !important;
+}
+
+.selectClient {
+  text-align: center;
+  font-size: 125%;
+  padding-top: 2em;
+}
+
+
+.searchBar {
+  flex: 0 0;
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+}
+
+.searchTextInput {
+  flex: 1 0;
+  border-radius: 10px !important;
+}
+
+
+.searchBar > .searchButton { /* using child selector to increase presedence */
+  flex: 0 0;
+  margin: auto 0 auto 16px;
+}
+
+.forceOnboardingHiddenTrigger {
+  display: block;
+  position: absolute;
+  content: " ";
+  width: 50px;
+  height: 50px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.tableContainer {
+  flex: 1 1;
+  margin: 16px 0 0 0;
+}
+
+.tableHeaderText {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #0f0d30;
+  white-space: nowrap;
+}
+
+.tableRow > .planProgressCell {
+  text-align: right;
+}
+
+.clientNameText {
+  display: block;
+  margin-left: 0.5em;
+  color:#454446;
+}
+
+.planProgressText {
+  display: block;
+  width: 3rem;
+  margin: 0 auto;
+}
+
+.cards {
+  & .firstCard {
+    & .cardClient {
+      margin: 2vh;
+      & .title {
+        height: 5vh;
+        & span {
+          font-weight: bold;
+        }
+      }
+      & .planStatus {
+        height: 20vh;
+        & span {
+          font-weight: bold;
+        }
+      }
+      & .actionTags {
+        min-height: 10vh;
+      }
+    }
+  }
+  & .secondCard {
+    & .searchBox {
+      button {
+        height: 100%;
+      }
+    }
+  }
+}
+
+.sideBarDrawer {
+  background: #3d1c7c;
+  margin-right: 10px;
+}
+
+
+.appBarToolbar {
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.clientsTypography {
+  margin-left: 20px;
+}
+
+.newClientButton {
+  min-width: 180px !important;
+  min-height: 38px  !important;
+  border-radius: 10px !important;
+
+}
+
+.refreshButton {
+  font-size: 18px !important;
+  min-height: 32px  !important;
+  border-radius: 7px !important;
+
+}
+
+
+.noClientsContentContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.welcomeTitle {
+  font-size: 50px !important;
+  font-weight: 500;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.noClientImageButtonContainer, .largeAddClientButtonContainer {
+  display: flex;
+  flex: 1;
+}
+
+.manAtComputerImageContainer {
+  flex: 1;
+}
+
+.largeAddClientButtonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.manAtComputerImage {
+  max-width: 600px;
+  margin-left: 100px;
+}
+
+.largeAddClientButton {
+  min-width: 300px !important;
+  min-height: 70px !important;
+  border-radius: 10px !important;
+}
+
+.refreshButtonContainer {
+  display: flex;
+  justify-content: right;
+  padding-right: 40px;
+}
+
+.hitRefreshInstruction {
+  margin-top: 25px;
+}

@@ -1,0 +1,812 @@
+{
+  "Alabama": {
+    "assistedLiving": {
+      "rateAmount": 3055.92,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 22.03,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2157.58807244292,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 6585.21,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Arizona": {
+    "assistedLiving": {
+      "rateAmount": 4460.73,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 26.96,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2709.168955442589,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 7315.21,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Arkansas": {
+    "assistedLiving": {
+      "rateAmount": 3337.15,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 21.07,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2130.0978871504803,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 6128.96,
+      "ratePeriod": "monthly"
+    }
+  },
+  "California": {
+    "assistedLiving": {
+      "rateAmount": 5697.47,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 30.88,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 3448.7385721549526,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 10539.38,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Colorado": {
+    "assistedLiving": {
+      "rateAmount": 3932.6,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 28.5,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2847.227027463497,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 9094.58,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Connecticut": {
+    "assistedLiving": {
+      "rateAmount": 6348.21,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 25.4,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 3515.104163647175,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 11923.33,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Florida": {
+    "assistedLiving": {
+      "rateAmount": 4577.94,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 24.24,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2803.451385513398,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 8988.12,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Georgia": {
+    "assistedLiving": {
+      "rateAmount": 3833.17,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 22.85,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2375.7822153776833,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 6858.96,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Idaho": {
+    "assistedLiving": {
+      "rateAmount": 4394.74,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 26.86,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2911.5287056896586,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 9413.96,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Illinois": {
+    "assistedLiving": {
+      "rateAmount": 4176.81,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 25.38,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2522.2525686128297,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 6661.25,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Indiana": {
+    "assistedLiving": {
+      "rateAmount": 3939.2,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 26.39,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2646.472145370996,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 7938.75,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Iowa": {
+    "assistedLiving": {
+      "rateAmount": 3838.36,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 29.42,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2667.7009246496245,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 7223.96,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Kansas": {
+    "assistedLiving": {
+      "rateAmount": 4360.09,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 26.12,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2562.5087031999005,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 6417.92,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Kentucky": {
+    "assistedLiving": {
+      "rateAmount": 3595.67,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 23.4,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2374.1140651652636,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 7102.29,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Louisiana": {
+    "assistedLiving": {
+      "rateAmount": 3362.31,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 22.3,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2381.448070890814,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 8030.0,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Maine": {
+    "assistedLiving": {
+      "rateAmount": 5866.95,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 30.13,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 3435.252370019234,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 10356.88,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Maryland": {
+    "assistedLiving": {
+      "rateAmount": 4977.4,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 27.61,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2920.36774492058,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 8090.83,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Massachusetts": {
+    "assistedLiving": {
+      "rateAmount": 6723.23,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 31.28,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 3955.9344677793715,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 13246.46,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Michigan": {
+    "assistedLiving": {
+      "rateAmount": 3969.48,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 28.17,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2764.0529618772266,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 8349.38,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Minnesota": {
+    "assistedLiving": {
+      "rateAmount": 3743.89,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 30.76,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 3147.22841654739,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 11497.5,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Mississippi": {
+    "assistedLiving": {
+      "rateAmount": 3382.69,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 20.47,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2356.5914764621425,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 8425.42,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Missouri": {
+    "assistedLiving": {
+      "rateAmount": 3706.57,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 22.87,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2183.7104724723104,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 5262.08,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Montana": {
+    "assistedLiving": {
+      "rateAmount": 4516.06,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 28.63,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2784.6421148135414,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 7315.21,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Nebraska": {
+    "assistedLiving": {
+      "rateAmount": 4133.15,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 28.85,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2715.2584977018037,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 7315.21,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Nevada": {
+    "assistedLiving": {
+      "rateAmount": 4314.35,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 25.68,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2773.4153703755965,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 8683.96,
+      "ratePeriod": "monthly"
+    }
+  },
+  "New Hampshire": {
+    "assistedLiving": {
+      "rateAmount": 5362.74,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 31.13,
+      "ratePeriod": "hourly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 10235.21,
+      "ratePeriod": "monthly"
+    },
+    "independentLiving": {
+      "rateAmount": 3358.474037696382,
+      "ratePeriod": "monthly"
+    }
+  },
+  "New Mexico": {
+    "assistedLiving": {
+      "rateAmount": 4057.61,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 25.09,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2531.4272473780775,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 7087.08,
+      "ratePeriod": "monthly"
+    }
+  },
+  "New York": {
+    "assistedLiving": {
+      "rateAmount": 4809.62,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 30.25,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 3204.2264399760375,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 10159.17,
+      "ratePeriod": "monthly"
+    }
+  },
+  "North Carolina": {
+    "assistedLiving": {
+      "rateAmount": 5090.27,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 23.12,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2767.455510250816,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 8060.42,
+      "ratePeriod": "monthly"
+    }
+  },
+  "North Dakota": {
+    "assistedLiving": {
+      "rateAmount": 3456.97,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 28.02,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 3083.7850530072897,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 12455.62,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Ohio": {
+    "assistedLiving": {
+      "rateAmount": 4600.82,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 28.84,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2932.491746168442,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 8486.25,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Oklahoma": {
+    "assistedLiving": {
+      "rateAmount": 3552.65,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 26.48,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2354.9111630404313,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 5870.42,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Oregon": {
+    "assistedLiving": {
+      "rateAmount": 5483.0,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 30.45,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 3369.503117666472,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 10356.88,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Pennsylvania": {
+    "assistedLiving": {
+      "rateAmount": 4223.95,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 29.19,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 3052.3533280229653,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 10235.21,
+      "ratePeriod": "monthly"
+    }
+  },
+  "South Carolina": {
+    "assistedLiving": {
+      "rateAmount": 4092.07,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 24.73,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2694.8747925035523,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 8714.38,
+      "ratePeriod": "monthly"
+    }
+  },
+  "South Dakota": {
+    "assistedLiving": {
+      "rateAmount": 3655.34,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 29.25,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2670.1077878564956,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 7665.0,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Tennessee": {
+    "assistedLiving": {
+      "rateAmount": 3818.89,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 23.28,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2446.708509265475,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 7406.46,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Texas": {
+    "assistedLiving": {
+      "rateAmount": 3748.43,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 25.23,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2238.420745419884,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 4836.25,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Utah": {
+    "assistedLiving": {
+      "rateAmount": 3744.38,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 25.27,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2428.5189461036593,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 6646.04,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Vermont": {
+    "assistedLiving": {
+      "rateAmount": 5033.15,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 29.03,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 3148.6404422683177,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 9642.08,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Virginia": {
+    "assistedLiving": {
+      "rateAmount": 6138.54,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 26.75,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 3193.3743889270613,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 8760.0,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Washington": {
+    "assistedLiving": {
+      "rateAmount": 5213.22,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 31.12,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 3262.4429549615775,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 9611.67,
+      "ratePeriod": "monthly"
+    }
+  },
+  "West Virginia": {
+    "assistedLiving": {
+      "rateAmount": 3968.15,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 22.4,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2701.0256721400615,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 9870.21,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Wisconsin": {
+    "assistedLiving": {
+      "rateAmount": 4479.58,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 24.6,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2803.666498872316,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 9048.96,
+      "ratePeriod": "monthly"
+    }
+  },
+  "Wyoming": {
+    "assistedLiving": {
+      "rateAmount": 3642.9,
+      "ratePeriod": "monthly"
+    },
+    "homeCare": {
+      "rateAmount": 28.36,
+      "ratePeriod": "hourly"
+    },
+    "independentLiving": {
+      "rateAmount": 2690.6436750367848,
+      "ratePeriod": "monthly"
+    },
+    "fullCareFacility": {
+      "rateAmount": 8212.5,
+      "ratePeriod": "monthly"
+    }
+  }
+}

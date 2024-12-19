@@ -1,0 +1,71 @@
+.chartContainer {
+  width: 80%;
+  height: 80%;
+  display: flex;
+}
+
+.chartSegment {
+  flex: 1 0 0;
+}
+
+.chartInteractive {
+  cursor: pointer;
+
+  &:hover {
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 0 2px;
+  }
+
+  &:active {
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 0 2px #fff inset;
+  }
+  }
+
+.chartLabel {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  height: 31px;
+  text-overflow: ellipsis;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflowed text */
+  padding-bottom: 7px;
+}
+
+.chartBar {
+  height: calc(100% - 24px);
+  vertical-align: middle;
+}
+
+.chartData {
+  position: relative;
+  top: calc(50% - 0.5em);
+  padding-left: 21px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.chartSubtext {
+  padding-top: 8px;
+  padding-left: 21px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #454446;
+}
+
+.careEnvironmentChartLabel {
+  color: #454446;
+  font-weight: 500;
+}

@@ -1,0 +1,137 @@
+{
+    "clientBirthDate": {
+        "questionLabel": "Birth Date",
+        "questionTitle": "What is your birth date?",
+        "questionChoices": null
+    },
+    "clientMentalHealthIssuesList": {
+        "questionLabel": "Mental Health Feelings",
+        "questionTitle": "Which of the following statements describe feelings or experiences you have had at least three times in the past week?",
+        "questionChoices": {
+            "significantEffort": "I found that everything requires significant effort",
+            "feltSad": "I felt sad",
+            "restlessSleep": "I experienced restless sleep",
+            "feltLonely": "I felt lonely",
+            "feltDepressed": "I felt depressed",
+            "dontKnow": "I don't know / prefer not to answer",
+            "noneOfThese": "None of these"
+        }
+    },
+    "clientSmokerEver": {
+        "questionLabel": "Smoking History",
+        "questionTitle": "Have you ever smoked more than 25 cigarettes in your lifetime?",
+        "questionChoices": {
+            "yes": "Yes",
+            "no": "No",
+            "dontKnow": "I don't know / prefer not to answer"
+        }
+    },
+    "clientUsesRegularPrescriptionDrugs": {
+        "questionLabel": "Monthly Medications",
+        "questionTitle": "Are you prescribed any medications that you take at least monthly?",
+        "questionChoices": {
+            "yes": "Yes",
+            "no": "No",
+            "dontKnow": "I don't know / prefer not to answer"
+        }
+    },
+    "clientWeightPounds": {
+        "questionLabel": "Weight In Pounds",
+        "questionTitle": "How much do you weigh?",
+        "questionChoices": null
+    },
+    "clientHeightInches": {
+        "questionLabel": "Height In Inches",
+        "questionTitle": "How tall are you?",
+        "questionChoices": null
+    },
+    "clientPriorTwoYearHospitalizationCount": {
+        "questionLabel": "Hospitalizations In Two Years",
+        "questionTitle": "How many prior hospitalizations (stayed overnight) have you had in the last two years?",
+        "questionChoices": null
+    },
+    "clientDifficultyWithTasks": {
+        "questionLabel": "Daily Task Difficulty",
+        "questionTitle": "Do you have any difficulty with common daily tasks due to an impairment or are you currently receiving long-term care?",
+        "questionChoices": null
+    },
+    "clientActivitiesWithDifficultyList": {
+        "questionLabel": "Difficulty With Activities",
+        "questionTitle": "Please select any activities you have difficulty with",
+        "questionChoices": {
+            "bathing": "Bathing",
+            "eating": "Eating",
+            "dressing": "Dressing",
+            "walking": "Walking",
+            "gettingInOutOfBed": "Getting in/out of bed",
+            "toileting": "Toileting",
+            "climbingStairs": "Climbing stairs",
+            "goingShopping": "Going shopping",
+            "takingMedication": "Taking medication",
+            "preparingMeals": "Preparing meals",
+            "selfManagingMoneyFinances": "Self-managing money/finances",
+            "makingPhoneCalls": "Making phone calls",
+            "noneOfThese": "None of these",
+            "dontKnow": "I don't know / prefer not to answer"
+        }
+    },
+    "clientActivitiesReceivedAssistanceList": {
+        "questionLabel": "Assistance With Activities",
+        "questionTitle": "Please select any activities that you receive help with due to physical or cognitive limitations",
+        "questionChoices": {
+            "bathing": "Bathing",
+            "eating": "Eating",
+            "dressing": "Dressing",
+            "walking": "Walking",
+            "gettingInOutOfBed": "Getting in/out of bed",
+            "toileting": "Toileting",
+            "climbingStairs": "Climbing stairs",
+            "goingShopping": "Going shopping",
+            "takingMedication": "Taking medication",
+            "preparingMeals": "Preparing meals",
+            "selfManagingMoneyFinances": "Self-managing money/finances",
+            "makingPhoneCalls": "Making phone calls",
+            "noneOfThese": "None of these",
+            "dontKnow": "I don't know / prefer not to answer"
+        }
+    },
+    "clientDiagnosesList": {
+        "questionLabel": "Medical Diagnoses",
+        "questionTitle": "In the past 10 years, has a licensed member of the medical profession treated you for, or made a diagnosis of any of the following?",
+        "questionChoices": {
+            "highBloodPressure": "High blood pressure",
+            "heartDisorder": "Heart attack, chest discomfort, heart murmur, circulatory or heart disorder",
+            "diabetes": "Diabetes",
+            "thyroidDisorder": "Thyroid disorder, elevated cholesterol, or other endocrine or metabolic disorder",
+            "lungDisorder": "Asthma, shortness of breath, sleep apnea or any other lung/respiratory disorder",
+            "digestiveDisorder": "Any disorder of stomach, liver, or digestive system (e.g., hepatitis, ulcer, colitis)",
+            "brainDisorder": "Seizures, stroke, fainting, paralysis, falls, or any other disorder of brain/nervous system",
+            "neurologicalDisease": "Alzheimers disease, dementia, memory impairment, Parkinson\u2019s disease, or any other progressive neurological disease",
+            "psychiatricConditions": "Emotional, nervous, or psychiatric conditions (e.g. depression, anxiety, bipolar or borderline personality disorders, Schizophrenia)",
+            "cancer": "Cancer, tumor, polyp, cyst",
+            "eyeEarNoseThroatDisorder": "Disorder of eyes, ears, nose, throat",
+            "urinaryReproductiveDisorder": "Kidney, bladder, urinary, reproductive organ, breast of prostate disorder",
+            "immuneDisorder": "AIDS, HIV, or any other disorder of the immune system",
+            "noneOfThese": "None of these",
+            "dontKnow": "I don't know / prefer not to answer"
+        }
+    },
+    "clientInjuriesList": {
+        "questionLabel": "Injury History",
+        "questionTitle": "In the past 10 years, have you experienced any significant orthopedic surgeries, injuries, or chronic conditions related to the following?",
+        "questionChoices": {
+            "kneeInjury": "Knee (e.g., knee replacement, ACL tear)",
+            "ankleInjury": "Ankle (e.g., ankle fracture, ligament damage)",
+            "hipInjury": "Hip (e.g., hip replacement, hip impingement)",
+            "backInjury": "Back (e.g., spinal surgery, herniated disc)",
+            "shoulderInjury": "Shoulder (e.g., rotator cuff tear, frozen surgery)",
+            "neckInjury": "Neck (e.g., cervical spine surgery, neck fracture)",
+            "wristHandInjury": "Wrist or Hand (e.g., carpal tunnel surgery, hand fracture)",
+            "elbowInjury": "Elbow (e.g., tennis elbow, elbow surgery)",
+            "footInjury": "Foot (e.g., foot surgery, plantar fasciitis)",
+            "chronicJointPain": "Chronic joint pain (e.g., arthritis, gout, bursitis)",
+            "noneOfThese": "None of these",
+            "dontKnow": "I don't know / prefer not to answer"
+        }
+    }
+}

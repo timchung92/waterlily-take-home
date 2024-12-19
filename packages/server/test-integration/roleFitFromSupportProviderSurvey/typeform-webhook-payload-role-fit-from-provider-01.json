@@ -1,0 +1,1671 @@
+{
+  "event_id": "01HCJ3CQ2VD2R0H70PQE4YJ8WN",
+  "event_type": "form_response",
+  "form_response": {
+    "form_id": "flK97Zux",
+    "token": "31lwz3njv13331lwz63bw05sv4mcowk1",
+    "landed_at": "2023-10-12T14:05:48Z",
+    "submitted_at": "2023-10-12T14:07:04Z",
+    "hidden": {
+      "advisor_id": "ace3-43f",
+      "client_id": "3m3-f9c7",
+      "support_provider_id": "dd89e1c5-86ab-49ba-9850-ea76278c8fb2",
+      "survey_id": "eb31388f-cffa-413c-9b62-21823c4f098f"
+    },
+    "definition": {
+      "id": "flK97Zux",
+      "title": "Premium Role Fit by Future Caregiver",
+      "fields": [
+        {
+          "id": "Za4l8gLr0abk",
+          "ref": "supportProviderPersonality",
+          "type": "multiple_choice",
+          "title": "How would you describe your personality?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "GLXK8lDs6Csk",
+              "ref": "01HAQB3HFBM89A1XZET2JG52F9",
+              "label": "Outgoing"
+            },
+            {
+              "id": "9hIc4q5vFrus",
+              "ref": "01HAQB3HFBJXHK33ZJ3293WF8T",
+              "label": "Introverted"
+            },
+            {
+              "id": "ZUR6ap62Dcol",
+              "ref": "08e20a5d-1a5b-4e74-bf2f-2ab2cad92480",
+              "label": "Optimistic"
+            },
+            {
+              "id": "Z4Z8ufe6XYS7",
+              "ref": "cdd4eb66-cd68-4398-bc40-78504fb53008",
+              "label": "Pessimistic"
+            },
+            {
+              "id": "5iazh1NMfegx",
+              "ref": "ca909126-e9cf-44a7-9bcb-d6ded42ba8ce",
+              "label": "Independent"
+            },
+            {
+              "id": "XMjx5HjXQjHP",
+              "ref": "eff43ec4-c94b-4565-955c-a131cd909b9d",
+              "label": "Dependable"
+            },
+            {
+              "id": "kqAQeragB4Sm",
+              "ref": "4af42d31-1da1-4d85-b32a-00b7b4053d60",
+              "label": "Other"
+            }
+          ]
+        },
+        {
+          "id": "UI126UGxCULN",
+          "ref": "supportProviderStressCopingPreference",
+          "type": "multiple_choice",
+          "title": "How do you generally cope with stress or challenging situations?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "XZab9DqZNsmY",
+              "ref": "3332aa8f-51d1-448e-86e0-880027a3397b",
+              "label": "I tackle the problem directly"
+            },
+            {
+              "id": "N6fs5I0X40gG",
+              "ref": "cee11343-6a6b-440c-8d4b-3f19b6a98f2e",
+              "label": "I seek support from others"
+            },
+            {
+              "id": "l4barsVpFvoL",
+              "ref": "8d2d08e7-ee06-4db4-bd21-0a0128f8d9e1",
+              "label": "I prefer to avoid or escape from it"
+            },
+            {
+              "id": "idmn1rVSh7YR",
+              "ref": "d254a4c2-d03f-448e-815b-fc28fb24ecbd",
+              "label": "Other"
+            }
+          ]
+        },
+        {
+          "id": "bFdxkQ578ihs",
+          "ref": "supportProviderRelationshipWithClient",
+          "type": "multiple_choice",
+          "title": "How would you describe your relationship with the future care recipient?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "OHjw0N13HsuZ",
+              "ref": "ad61a6ad-ffa6-4166-b888-2db25d36339b",
+              "label": "Very close"
+            },
+            {
+              "id": "OFRqkZJa1Fie",
+              "ref": "67ea1494-a808-4824-aaf1-82ea5f2605e9",
+              "label": "Fairly close"
+            },
+            {
+              "id": "jbY0FAWf4qlQ",
+              "ref": "db28725e-205c-4e5a-98ee-4d0b5d5d75b2",
+              "label": "Neutral"
+            },
+            {
+              "id": "bYiAkkP6ahBs",
+              "ref": "1f5ea1e3-3793-4596-95ee-ee7e25ed5862",
+              "label": "Not very close"
+            },
+            {
+              "id": "PEnZCzMcNMqJ",
+              "ref": "33403109-310a-4557-9903-163d89c8cbe4",
+              "label": "Distant"
+            }
+          ]
+        },
+        {
+          "id": "21LfwEHjBqNS",
+          "ref": "supportProviderConflictResolutionWithCareRecipientPreferences",
+          "type": "multiple_choice",
+          "title": "In your relationship with the future care recipient, how do you typically handle disagreements or conflicts?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "fpZZjDuuU2Yw",
+              "ref": "10ec5f92-0925-4532-9506-9a03ea26002e",
+              "label": "We communicate and compromise"
+            },
+            {
+              "id": "7ovBqOa8oWoS",
+              "ref": "fd6cedb3-655c-4661-be53-159234651558",
+              "label": "One of us usually concedes to the other"
+            },
+            {
+              "id": "NAdTrsKWZQUe",
+              "ref": "c9ffa24e-f1cc-4633-af25-66e5cfe4bc78",
+              "label": "We avoid conflict"
+            },
+            {
+              "id": "BnpU0Yy1dJJM",
+              "ref": "d622163a-1e48-4f85-8b82-689705c19793",
+              "label": "Other"
+            }
+          ]
+        },
+        {
+          "id": "TtOEfitdng0N",
+          "ref": "supportProviderToClientTrustLevel",
+          "type": "multiple_choice",
+          "title": "How would you describe the level of trust in your relationship?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "2OWFlN8iHRqS",
+              "ref": "a1353319-fc0c-4a86-a3b8-1a2fe1289ddd",
+              "label": "Very high level of trust"
+            },
+            {
+              "id": "yHn7BnM2bI8r",
+              "ref": "05181fc9-0237-464d-bc98-001645f962bb",
+              "label": "High level of trust"
+            },
+            {
+              "id": "3vhdjirm2oRm",
+              "ref": "5df08d1d-17e2-40cd-b955-c733dd96827f",
+              "label": "Moderate level of trust"
+            },
+            {
+              "id": "rd2yWP8Gnr2J",
+              "ref": "53be5173-c01e-455e-938b-396c1b5890db",
+              "label": "Low level of trust"
+            },
+            {
+              "id": "ZEWzVDwYWKbV",
+              "ref": "638cab66-c8aa-42db-9578-9c78dcdfd94f",
+              "label": "No trust"
+            }
+          ]
+        },
+        {
+          "id": "HFozVtYI506l",
+          "ref": "supportProviderCommunicationFrequency",
+          "type": "multiple_choice",
+          "title": "How often do you currently communicate (in person, phone calls, email, etc.)?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "tVQQ1aP4qDXS",
+              "ref": "513748f0-21ad-421d-a82d-92107a98b74e",
+              "label": "Daily"
+            },
+            {
+              "id": "34DOLOvKMVgc",
+              "ref": "66a7c540-f1c9-4afd-81d2-72cc7e3ef5bc",
+              "label": "Weekly"
+            },
+            {
+              "id": "siP9KAs8xEy5",
+              "ref": "45697f22-d30e-4933-98be-a46aef09b330",
+              "label": "Monthly"
+            },
+            {
+              "id": "k9HfvXTZYgSw",
+              "ref": "a6a3f761-9d91-4658-9793-9af1beaf45e6",
+              "label": "Rarely"
+            },
+            {
+              "id": "l1U0cVhITQpm",
+              "ref": "102c0842-c3bb-4141-a10a-08572c08492a",
+              "label": "Never"
+            }
+          ]
+        },
+        {
+          "id": "lpGlxIR5eoeT",
+          "ref": "supportProviderEmotionalClosenessLevel",
+          "type": "multiple_choice",
+          "title": "How would you describe your level of emotional closeness with each other?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "exEKRAoPjnK5",
+              "ref": "158f8961-e016-4a9f-a458-d053820a1538",
+              "label": "Very emotionally close"
+            },
+            {
+              "id": "tZo8k0n9B4Hm",
+              "ref": "cbd8a3c9-a2f9-420f-8bdf-5d91b3655852",
+              "label": "Fairly emotionally close"
+            },
+            {
+              "id": "1edKeLwdJcR8",
+              "ref": "1060ca8d-8dcf-40e3-ad60-ea9814e83ca4",
+              "label": "Neutral"
+            },
+            {
+              "id": "KqGUbJ5ul8iA",
+              "ref": "3707c49c-14a6-44f3-8a45-f6e0050c4d3b",
+              "label": "Not very emotionally close"
+            },
+            {
+              "id": "5OsGEUzECnfJ",
+              "ref": "805b1195-4fe0-46e8-b851-5a42809bce5d",
+              "label": "Not at all emotionally close"
+            }
+          ]
+        },
+        {
+          "id": "HkCYGNmLhsbt",
+          "ref": "supportProviderRolePreference",
+          "type": "multiple_choice",
+          "title": "What is your preferred role in a potential caregiving scenario?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "psJSTnAF2b8i",
+              "ref": "f44e61fc-412a-429d-abb1-65f79a64491a",
+              "label": "Direct caregiver, assisting with daily activities"
+            },
+            {
+              "id": "aSMFvu4qJ1nj",
+              "ref": "0ca965aa-68bf-432e-b892-e20936e9a1eb",
+              "label": "Financial manager, handling costs and budgets"
+            },
+            {
+              "id": "ZhHCbX9oljW8",
+              "ref": "a26d28fd-6357-4a88-8399-d8fb22120a60",
+              "label": "Care coordinator, arranging services"
+            },
+            {
+              "id": "FgGxUYnEBhoT",
+              "ref": "d36c9058-7966-480d-a948-1ee81add2b7a",
+              "label": "Emotional support provider, offering comfort and companionship"
+            },
+            {
+              "id": "OiO7oY60b2uP",
+              "ref": "d998ff74-3eae-461d-89e5-fcf2fc05cc13",
+              "label": "Medical decision-maker, assuming healthcare proxy duties"
+            }
+          ]
+        },
+        {
+          "id": "A466yKIW35Bm",
+          "ref": "supportProviderValidCircumstancePreferences",
+          "type": "multiple_choice",
+          "title": "Under what circumstances would you be willing to provide assistance post-treatment?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "ACsugyzSGeK9",
+              "ref": "7f6d7c94-eabe-4c0c-b547-810f2f9ce9e5",
+              "label": "Assisting with daily activities"
+            },
+            {
+              "id": "NiLovbrIKaER",
+              "ref": "29b8932b-b12e-4032-8540-59dcd94c7915",
+              "label": "Providing financial support"
+            },
+            {
+              "id": "jJPuVACUm3az",
+              "ref": "107b9721-6506-4c82-8cbe-72bdb3a80abc",
+              "label": "Coordinating care and appointments"
+            },
+            {
+              "id": "enKuUV31U2wd",
+              "ref": "c42bfc30-7580-4077-9f29-4289f2c0897a",
+              "label": "Offering emotional support and companionship"
+            },
+            {
+              "id": "xd7n9x6eOATC",
+              "ref": "01bacaae-33db-4a86-b6df-383a74925497",
+              "label": "Making medical decisions"
+            }
+          ]
+        },
+        {
+          "id": "lx6t6QKwWCkG",
+          "ref": "supportProviderCareWillingnessCapabilitiyComfortLevel",
+          "type": "multiple_choice",
+          "title": "Evaluate your willingness and capability to provide care if required:",
+          "properties": {},
+          "choices": [
+            {
+              "id": "26Vz8OLTT86g",
+              "ref": "933d23c6-6f89-4820-a1c7-5303873e8dea",
+              "label": "Fully willing and capable"
+            },
+            {
+              "id": "CRvzda7W7arb",
+              "ref": "9817dbb8-b7e9-4145-8a9a-66dc95cbc61a",
+              "label": "Willing, but with some reservations"
+            },
+            {
+              "id": "KShVWvllHT8A",
+              "ref": "45a2c760-7c88-4494-9fc2-0bf2da5b6930",
+              "label": "Capable, but with some reservations"
+            },
+            {
+              "id": "tu8gYj1m3Vkn",
+              "ref": "61c5e1a6-9845-44ac-a70e-75135da967eb",
+              "label": "Neither willing nor capable"
+            }
+          ]
+        },
+        {
+          "id": "w5n83RrExj76",
+          "ref": "supportProviderFinancialStabilityLevel",
+          "type": "multiple_choice",
+          "title": "Assess your financial stability concerning possible caregiving-related expenses or working hour reductions:",
+          "properties": {},
+          "choices": [
+            {
+              "id": "kxZfmiDj6dAH",
+              "ref": "58cb44a2-d6ae-4b2a-ae62-35496f44a007",
+              "label": "Very stable"
+            },
+            {
+              "id": "rb5T8TZ6jgRz",
+              "ref": "3c81a71c-f061-438e-9b14-8c94bf17fc9c",
+              "label": "Somewhat stable"
+            },
+            {
+              "id": "J7WdFIyAPqe6",
+              "ref": "1ac0cf62-4ee3-4004-9558-07f0afe08b1e",
+              "label": "Somewhat unstable"
+            },
+            {
+              "id": "KfQHzsawxW2b",
+              "ref": "cbe39feb-49fa-42fd-947d-aabb6a7703af",
+              "label": "Very unstable"
+            }
+          ]
+        },
+        {
+          "id": "0q7gePKnjqNp",
+          "ref": "supportProviderExperienceLevel",
+          "type": "multiple_choice",
+          "title": "Have you had any previous experience or knowledge in caregiving?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "rQ0r9UWFcG4z",
+              "ref": "ecb6ef9d-87da-468b-9bc1-2a20278be035",
+              "label": "Extensive experience/knowledge"
+            },
+            {
+              "id": "LAwczkXGgneB",
+              "ref": "44b194f1-dbeb-4610-9c45-8e072b417142",
+              "label": "Some experience/knowledge"
+            },
+            {
+              "id": "E5btNuCyepZO",
+              "ref": "bb03ac0f-9d52-484a-abd2-bf97fb391ead",
+              "label": "Little to no experience/knowledge"
+            }
+          ]
+        },
+        {
+          "id": "KNWqrSZJ31Y8",
+          "ref": "supportProviderSupportNetwork",
+          "type": "multiple_choice",
+          "title": "Identify who could potentially provide you with support if you became a caregiver:",
+          "properties": {},
+          "allow_multiple_selections": true,
+          "choices": [
+            {
+              "id": "jIh4RTZr2LyK",
+              "ref": "a550b404-61ff-49a9-9bb0-9fe1eef66c09",
+              "label": "Other family members"
+            },
+            {
+              "id": "NQT8sBJoOmtO",
+              "ref": "99c16650-0496-4f52-867e-680dc43aa2ad",
+              "label": "Friends or neighbors"
+            },
+            {
+              "id": "Xtiwe8gZ9dUr",
+              "ref": "a5330f70-e949-40fc-a86a-e260acb6e3b4",
+              "label": "Community resources"
+            },
+            {
+              "id": "I8KzJr1Mp0P8",
+              "ref": "fa8c612a-86dc-4129-a515-ebc7b6e06ca5",
+              "label": "No one at the moment"
+            }
+          ]
+        },
+        {
+          "id": "tK3t7mLsdySr",
+          "ref": "supportProviderRelationshipToCareRecipient",
+          "type": "multiple_choice",
+          "title": "How would you describe your existing relationship with the potential care recipient?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "EITxinyYH0vW",
+              "ref": "ac2cdbb9-f884-4636-8586-5e405c583e8e",
+              "label": "Very close"
+            },
+            {
+              "id": "uJtbh3WsPxVG",
+              "ref": "a3fbbee2-d0d8-4aea-8575-422a71923a35",
+              "label": "Fairly close"
+            },
+            {
+              "id": "ewMRIuFdmTar",
+              "ref": "eca1a2ab-c0af-4ea6-9220-26f6b1cd6cf1",
+              "label": "Neutral"
+            },
+            {
+              "id": "xfRw8aGyZ0lT",
+              "ref": "08773c09-6c56-4f34-97f6-cdd6b44f8cfc",
+              "label": "Somewhat distant"
+            },
+            {
+              "id": "a5SH76MJDb2d",
+              "ref": "c0a5f01c-3895-4561-8016-a408e4ef1cc3",
+              "label": "Very distant"
+            }
+          ]
+        },
+        {
+          "id": "mPdkfMU3ugua",
+          "ref": "supportProviderHoursPerWeek",
+          "type": "multiple_choice",
+          "title": "Estimate the number of hours per week you foresee devoting to caregiving duties:",
+          "properties": {},
+          "choices": [
+            {
+              "id": "x19wqdwMUNA1",
+              "ref": "3026d634-43ba-4522-98fb-57355c180c55",
+              "label": "Less than 10 hours"
+            },
+            {
+              "id": "QfRBAzmVxaOb",
+              "ref": "938aaeea-136d-4f37-97b6-e293782ac3ca",
+              "label": "10-20 hours"
+            },
+            {
+              "id": "5eupXdj3oacD",
+              "ref": "1bbae89f-feb1-40eb-a44d-b1062171f9db",
+              "label": "20-30 hours"
+            },
+            {
+              "id": "zjyDPSrzv96t",
+              "ref": "b6717165-2528-4627-94a3-b66651f6fa38",
+              "label": "More than 30 hours"
+            }
+          ]
+        },
+        {
+          "id": "1GWyHnFMFjlh",
+          "ref": "supportProviderRelationshipForecast",
+          "type": "multiple_choice",
+          "title": "How do you perceive the potential shift in your relationship with the care recipient due to the caregiving role?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "SLmid7GSFBqQ",
+              "ref": "b89f36e8-b04d-4dff-81b7-fbb3985b7cd6",
+              "label": "Very comfortable"
+            },
+            {
+              "id": "JN6R1WHhQ0cP",
+              "ref": "4a49a49c-9f1f-435b-b401-ac4f680838ff",
+              "label": "Somewhat comfortable"
+            },
+            {
+              "id": "RCMNTL7swv5x",
+              "ref": "09aed8e9-e0f2-4200-966e-2e8f41846977",
+              "label": "Neutral"
+            },
+            {
+              "id": "EJ45SQaDWIVC",
+              "ref": "a2401ac2-7752-48a5-9a2d-5b98a6c3c396",
+              "label": "Somewhat uncomfortable"
+            },
+            {
+              "id": "2rZmHntnWPyD",
+              "ref": "fa7137cc-2e67-4b93-9c68-4934e10dd26d",
+              "label": "Very uncomfortable"
+            }
+          ]
+        },
+        {
+          "id": "msTut6BB7fZp",
+          "ref": "supportProviderEmotionalStrainForecast",
+          "type": "multiple_choice",
+          "title": "Do you anticipate any emotional strain resulting from caregiving responsibilities?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "PnbKl5G3pxyy",
+              "ref": "057295b0-7b01-4511-a681-fdcff0b49e4a",
+              "label": "Very likely"
+            },
+            {
+              "id": "NutBmookHo09",
+              "ref": "7d347adf-92c2-433a-8c81-33817a0cae27",
+              "label": "Somewhat likely"
+            },
+            {
+              "id": "tdjQ816Db8iO",
+              "ref": "f7edeb9f-c089-4bb6-af04-3293d412783b",
+              "label": "Neutral"
+            },
+            {
+              "id": "pWF6lKfR9P85",
+              "ref": "4a96f17a-f3e0-4b5f-a0c9-222822586b9a",
+              "label": "Somewhat unlikely"
+            },
+            {
+              "id": "6WnY1AM0UB98",
+              "ref": "91a24dbe-ff7b-402b-8c77-cf9576418491",
+              "label": "Very unlikely"
+            }
+          ]
+        },
+        {
+          "id": "w3rxf4PgpfpF",
+          "ref": "supportProviderFinancialWorryLevel",
+          "type": "multiple_choice",
+          "title": "How concerned are you about the financial implications of assuming a caregiving role?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "vU2I7JtxU3Rv",
+              "ref": "49fedb4a-9ffa-4f10-8bfc-34fa34534d00",
+              "label": "Very concerned"
+            },
+            {
+              "id": "UruPhNixtLXw",
+              "ref": "bae0d9b6-e9ce-454e-9200-ed4a751dee05",
+              "label": "Somewhat concerned"
+            },
+            {
+              "id": "ZLXapmDu9BeI",
+              "ref": "f2591378-c152-438b-9dec-47b2b241de8c",
+              "label": "Neutral"
+            },
+            {
+              "id": "sDKnOPmIYrGB",
+              "ref": "3f033710-7bff-4fe3-a0cf-9eb9c65eedf9",
+              "label": "Somewhat unconcerned"
+            },
+            {
+              "id": "rmIdo3k677EC",
+              "ref": "ff7e2588-438e-4410-aa7d-3e2e374a8ac2",
+              "label": "Not at all concerned"
+            }
+          ]
+        },
+        {
+          "id": "qjdf5DfuHDUB",
+          "ref": "supportProviderCareInterferenceLevel",
+          "type": "multiple_choice",
+          "title": "Do you foresee caregiving duties interfering with your other roles or responsibilities (work, parenting, etc.)?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "S7AWnsAcUmm3",
+              "ref": "5a934f98-073f-4d60-9705-d6262c4b4762",
+              "label": "Very likely"
+            },
+            {
+              "id": "fHjqG9S7pyjT",
+              "ref": "55dc62ee-89a7-4812-8e35-152f7c105e4c",
+              "label": "Somewhat likely"
+            },
+            {
+              "id": "7P7NThDB3lri",
+              "ref": "4343e58b-b6c4-4b00-a9f2-7397eb96197c",
+              "label": "Neutral"
+            },
+            {
+              "id": "4iYPPdoittmn",
+              "ref": "1f9c0e76-b327-4ab3-bef9-1d4263176c7c",
+              "label": "Somewhat unlikely"
+            },
+            {
+              "id": "6e5qHFWhD2LS",
+              "ref": "13ea26d1-844b-473b-93d4-ce5054d272bf",
+              "label": "Very unlikely"
+            }
+          ]
+        },
+        {
+          "id": "bDEE8CrwujLQ",
+          "ref": "supportProviderPhysicalStressLevel",
+          "type": "multiple_choice",
+          "title": "Rate your current physical stress levels:",
+          "properties": {},
+          "choices": [
+            {
+              "id": "ChZ4z1RHeUGs",
+              "ref": "9cca6677-02b1-4190-9ea1-8f51433ad636",
+              "label": "Very high"
+            },
+            {
+              "id": "fissmGXj6Ea8",
+              "ref": "e047e7db-2c63-4ffa-90f6-40751b9a2a47",
+              "label": "Somewhat high"
+            },
+            {
+              "id": "Gw77kYRCuWCR",
+              "ref": "d842d63a-822d-4b44-bf38-b0d9037ef06c",
+              "label": "Neutral"
+            },
+            {
+              "id": "8tJ9eMXximqM",
+              "ref": "8fbee965-9cd4-447f-8de8-8d224a5ee042",
+              "label": "Somewhat low"
+            },
+            {
+              "id": "1GHV8bzOJU63",
+              "ref": "d4062dc6-dca5-47ed-a01f-bee96070dac4",
+              "label": "Very low"
+            }
+          ]
+        },
+        {
+          "id": "JYLxUBndBXf6",
+          "ref": "supportProviderEmotionalStressLevel",
+          "type": "multiple_choice",
+          "title": "Evaluate your current emotional stress levels:",
+          "properties": {},
+          "choices": [
+            {
+              "id": "IqryFnHdmF40",
+              "ref": "bc9fff66-a59c-413b-95fe-fff8b1dbd56f",
+              "label": "Very high"
+            },
+            {
+              "id": "rqKlP2hsdxIB",
+              "ref": "dcfc2112-acfa-4309-99fc-e94822ef466d",
+              "label": "Somewhat high"
+            },
+            {
+              "id": "0NJviBTWUWTe",
+              "ref": "080f0848-6b47-4a7b-ba45-99218ec5a6b0",
+              "label": "Neutral"
+            },
+            {
+              "id": "9Y9OwtbPbv00",
+              "ref": "780f1cf3-0e69-411e-bd76-95fed2a5fbcf",
+              "label": "Somewhat low"
+            },
+            {
+              "id": "VM28WNPhzYGS",
+              "ref": "011fd53b-b189-465a-9581-e4f9eaeca0f7",
+              "label": "Very low"
+            }
+          ]
+        },
+        {
+          "id": "aAY86zGrmT40",
+          "ref": "supportProviderDependentFamilyLevel",
+          "type": "multiple_choice",
+          "title": "Do you have other dependent family members (children, spouse, parents, etc.) who rely on you for care or support? If yes, how might this impact your ability to provide care for another individual?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "62h5ScrDopC6",
+              "ref": "83530442-289f-46d6-88e1-0307071b00a2",
+              "label": "Yes, significantly"
+            },
+            {
+              "id": "A5gT11DA5V3f",
+              "ref": "a9e1595d-dd21-4e75-ac3a-6b8946dc7ad0",
+              "label": "Yes, somewhat"
+            },
+            {
+              "id": "6vOcI3JqHV9P",
+              "ref": "eb691308-1f7e-4866-a671-9fa557cd9a1a",
+              "label": "Yes, but unlikely to impact"
+            },
+            {
+              "id": "6gOPppQe1V52",
+              "ref": "527238f1-8a7d-4491-a874-fadeb5f6a199",
+              "label": "No"
+            }
+          ]
+        },
+        {
+          "id": "K0WlyEp03bX0",
+          "ref": "supportProviderChronicHealthIssueLevel",
+          "type": "multiple_choice",
+          "title": "Are you currently managing any chronic health issues of your own that may impact your ability to provide care?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "ZAPPdzxDDQa5",
+              "ref": "4a52cb8d-fc6b-4ef1-80e6-19ad53922f66",
+              "label": "Yes, significantly"
+            },
+            {
+              "id": "bkDm5YCI8L5E",
+              "ref": "c70d5c30-959e-4867-b2d7-aa61b263d062",
+              "label": "Yes, somewhat"
+            },
+            {
+              "id": "BRf2yQzvlTcY",
+              "ref": "d5ef70f3-9d4b-42cf-af15-7da2a4a1626a",
+              "label": "Yes, but unlikely to impact"
+            },
+            {
+              "id": "wuHZmwJRSx4X",
+              "ref": "194db38e-4859-48e8-9899-13a108a15d20",
+              "label": "No"
+            }
+          ]
+        },
+        {
+          "id": "A6YonHsWq5IA",
+          "ref": "supportProviderMedicalFamiliarityLevel",
+          "type": "multiple_choice",
+          "title": "What is your current understanding of the potential care recipient's medical condition and care needs?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "Za5WSqv0p7BV",
+              "ref": "f3397600-32d8-47fb-bd30-6b628e2c1187",
+              "label": "Fully understand"
+            },
+            {
+              "id": "VwIToGgPvtHX",
+              "ref": "65ba3ec2-011c-4cae-bfb4-fb134cf4ea0a",
+              "label": "Understand to some extent"
+            },
+            {
+              "id": "NGG4xiW1ugPm",
+              "ref": "e6114f1e-849e-40aa-97b6-b47a3d5a30ab",
+              "label": "Only know basic details"
+            },
+            {
+              "id": "6Z5ImwWCq3lN",
+              "ref": "50374d3d-4cf5-48c5-b305-595b55deadc7",
+              "label": "Not very knowledgeable"
+            }
+          ]
+        },
+        {
+          "id": "NBUIE2JtKUbU",
+          "ref": "supportProviderTrainingComfortLevel",
+          "type": "multiple_choice",
+          "title": "Are you willing to undergo training or education to improve your caregiving skills?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "wG3FJC8IfiPd",
+              "ref": "59d93e89-aac8-48d7-84c5-6b143f8754b9",
+              "label": "Very willing"
+            },
+            {
+              "id": "WBgYv6weWdAj",
+              "ref": "e859a016-e5d1-47d3-8cda-b7596843e674",
+              "label": "Somewhat willing"
+            },
+            {
+              "id": "f459ChZw4K5W",
+              "ref": "acd8b567-ba1e-40d4-96b3-48baeac04b06",
+              "label": "Neutral"
+            },
+            {
+              "id": "UezQmidgljTw",
+              "ref": "3b2dc703-d440-44dc-929e-1d0a839ad215",
+              "label": "Somewhat unwilling"
+            },
+            {
+              "id": "dFrtiIL4U547",
+              "ref": "0e1bbc26-4701-4022-93cc-fb1ba39ddf6e",
+              "label": "Very unwilling"
+            }
+          ]
+        },
+        {
+          "id": "B8dbBkzunFYF",
+          "ref": "supportProviderSupportServiceComfortLevel",
+          "type": "multiple_choice",
+          "title": "What kind of support services would you consider utilizing to help with caregiving responsibilities?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "Cal90WH5yLO8",
+              "ref": "56cdad52-7c4e-40e0-a219-40b8470d1031",
+              "label": "Home health care services"
+            },
+            {
+              "id": "cS05kATS3rJh",
+              "ref": "e1252591-c5d9-423c-aa38-c171846605d7",
+              "label": "Adult day care services"
+            },
+            {
+              "id": "Bl89z2xggbzF",
+              "ref": "7fdfa9c3-6301-45fb-ac97-a2fc27d9b634",
+              "label": "Respite care services"
+            },
+            {
+              "id": "guKSIyRbJGs6",
+              "ref": "96683ff7-cabd-4bac-a0b8-58fad68b7ece",
+              "label": "Online or in-person support groups"
+            },
+            {
+              "id": "h5yN5asUo56N",
+              "ref": "c1d2ee61-3191-45c3-97c4-68b4d8b2b70b",
+              "label": "Professional caregiving advice or consultation"
+            },
+            {
+              "id": "dM5xSAHp8IUb",
+              "ref": "382dc2e6-1c46-442a-aa16-450821f698ab",
+              "label": "I don't foresee needing any support services"
+            }
+          ]
+        },
+        {
+          "id": "36bbKhoeyDAK",
+          "ref": "supportProviderEndOfLiveComfortLevel",
+          "type": "multiple_choice",
+          "title": "How do you feel about potential end-of-life care decisions and discussions?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "awdsc5HKdxvw",
+              "ref": "b5c06485-4d35-40ae-97be-d587de8eb9d8",
+              "label": "Very comfortable"
+            },
+            {
+              "id": "UcHKbi5P8ozT",
+              "ref": "7521b070-f7fa-47ae-9e37-7bddb1958d70",
+              "label": "Somewhat comfortable"
+            },
+            {
+              "id": "pUj2t0cT1q5J",
+              "ref": "b77df2ff-b895-40ae-942a-95c80b6000eb",
+              "label": "Neutral"
+            },
+            {
+              "id": "PUHY90eTmwIF",
+              "ref": "4d9a1ae3-08d5-4039-8e0c-399d91eade74",
+              "label": "Somewhat uncomfortable"
+            },
+            {
+              "id": "dHnBtdYbr0UE",
+              "ref": "e9b28ef6-2c7b-4dc9-b8cd-0ebd052b7f01",
+              "label": "Very uncomfortable"
+            }
+          ]
+        },
+        {
+          "id": "GyeZtz9Ftifz",
+          "ref": "supportProviderDecisionMakingVoiceLevel",
+          "type": "multiple_choice",
+          "title": "Do you feel you have a voice in the decision-making process around the potential care recipient's treatment and care plans?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "95zPfsdQhy6Q",
+              "ref": "d684b62b-11cd-4452-9cd9-e61b0224d64a",
+              "label": "Very much so"
+            },
+            {
+              "id": "SQnxdXKjG4ag",
+              "ref": "db3b0202-44a9-4f4d-838c-e5d1e029c72f",
+              "label": "Somewhat"
+            },
+            {
+              "id": "KzqC7fSyT4Sm",
+              "ref": "6c1f1e0f-29c1-449a-8a41-e0c4ba0d835a",
+              "label": "Not sure"
+            },
+            {
+              "id": "hE5q25Eti1sO",
+              "ref": "e2940e74-8375-4440-8550-8cb92a88836f",
+              "label": "Not really"
+            },
+            {
+              "id": "R5aDmso1mVYj",
+              "ref": "73654357-6733-4e8f-beaa-ed985d573abf",
+              "label": "Not at all"
+            }
+          ]
+        },
+        {
+          "id": "p2OgJGiVaNoS",
+          "ref": "supportProviderSetbackComfortLevel",
+          "type": "multiple_choice",
+          "title": "How would you cope with potential setbacks, such as the care recipient's health deteriorating or not improving as expected?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "ExXlBcifieQr",
+              "ref": "724abe57-02bd-4e93-a87b-0df5b77691b7",
+              "label": "Very well"
+            },
+            {
+              "id": "n2Lq4wlohj6o",
+              "ref": "47217f85-b12e-454b-a5df-1a1bfd63739c",
+              "label": "Fairly well"
+            },
+            {
+              "id": "sopbFgFvVy1W",
+              "ref": "82aabbc8-0291-4479-af97-49437bc1814f",
+              "label": "Neutral"
+            },
+            {
+              "id": "7BzREDWKpbVp",
+              "ref": "7c127529-4596-4748-816d-5768411a3d7e",
+              "label": "Somewhat poorly"
+            },
+            {
+              "id": "eWEldUob0OJO",
+              "ref": "ceef9af4-214d-475c-ba8f-41cf5451d4c1",
+              "label": "Very poorly"
+            }
+          ]
+        },
+        {
+          "id": "vD9BTkqLVovy",
+          "ref": "supportProviderDurationComfortLevel",
+          "type": "multiple_choice",
+          "title": "Are you prepared for the potential duration of the caregiving role? (This can sometimes span several years.)",
+          "properties": {},
+          "choices": [
+            {
+              "id": "dyXS7ktRFm2s",
+              "ref": "e4abcaab-2e40-4faf-9ea6-3c5a7283a476",
+              "label": "Very prepared"
+            },
+            {
+              "id": "CwVPTKymXWY1",
+              "ref": "6cf728e6-6a60-44d2-aef2-b8c680141c86",
+              "label": "Somewhat prepared"
+            },
+            {
+              "id": "7inRSAP36zof",
+              "ref": "a4f71404-5352-4808-b668-27bf8086e0f3",
+              "label": "Neutral"
+            },
+            {
+              "id": "eIZuj7dJokXb",
+              "ref": "7f108e7a-db94-45d3-a2f3-01122160f9b9",
+              "label": "Somewhat unprepared"
+            },
+            {
+              "id": "t9RIgiDe4zYO",
+              "ref": "ab5acb5b-86ae-4267-957a-213992219480",
+              "label": "Very unprepared"
+            }
+          ]
+        },
+        {
+          "id": "wijt3091jGNx",
+          "ref": "supportProviderFinancialResponsibilityComfortLevel",
+          "type": "multiple_choice",
+          "title": "Are you prepared to handle the potential financial responsibilities associated with caregiving?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "GBr8Ijl2m260",
+              "ref": "b7377e7a-be79-4f6f-b2c1-2ed7aefb0c33",
+              "label": "Fully capable"
+            },
+            {
+              "id": "uOGHYXZNVLXD",
+              "ref": "d97a7bcb-29d3-4874-93e5-0fda6f4225ec",
+              "label": "Somewhat capable"
+            },
+            {
+              "id": "orRyHjKEjmtW",
+              "ref": "1bbd9d1d-8a9b-4749-ae60-62b63ed4257b",
+              "label": "Will struggle, but can manage"
+            },
+            {
+              "id": "NAjnKi1qIMDR",
+              "ref": "fcfb7edd-fd41-40d7-91a7-5a8297ce69e6",
+              "label": "Not capable"
+            }
+          ]
+        },
+        {
+          "id": "jWr0KsuR31Ct",
+          "ref": "supportProviderAppreciationComfortLevel",
+          "type": "multiple_choice",
+          "title": "Are you prepared for the possibility that the person you are caring for may not appreciate or acknowledge your efforts, especially in cases where they have cognitive decline?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "h52Z5yAAmQHf",
+              "ref": "63679ec4-0083-4368-b403-aaadd155fabf",
+              "label": "Fully prepared"
+            },
+            {
+              "id": "8FdQ4xZrRxSM",
+              "ref": "56ac731c-40f8-4f26-9c3c-b35804e372c5",
+              "label": "Somewhat prepared"
+            },
+            {
+              "id": "MzCLgXGpBRRL",
+              "ref": "323e5aa2-131b-4fd6-b17d-28854677e589",
+              "label": "I have not considered this"
+            },
+            {
+              "id": "L22Q11BG5hLA",
+              "ref": "c44a1b82-0f74-4efa-97b6-2a1a2081fd47",
+              "label": "Not prepared"
+            }
+          ]
+        },
+        {
+          "id": "W2Sis2pMG2Eb",
+          "ref": "supportProviderOverwhelmPreferences",
+          "type": "multiple_choice",
+          "title": "How do you deal with emotional stress, frustration, or feelings of overwhelm?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "rFj7IvpOyLhr",
+              "ref": "eb35e916-a8dc-4b67-95c8-54360505d0ab",
+              "label": "I have effective coping strategies"
+            },
+            {
+              "id": "X2N6KvBbawEH",
+              "ref": "8100ae71-217f-4f4f-9387-c23398595e46",
+              "label": "I manage, but struggle sometimes"
+            },
+            {
+              "id": "QmtvbANxeocp",
+              "ref": "f1a5c220-b340-4c49-b7de-2b85dd1a9e8b",
+              "label": "I often struggle with managing these feelings"
+            },
+            {
+              "id": "rvgjcTDhyp2H",
+              "ref": "c0a95c1d-6e89-4d17-9a36-dfc9b77abbae",
+              "label": "I don't have any coping strategies"
+            }
+          ]
+        },
+        {
+          "id": "eGZzDyqIfBa9",
+          "ref": "supportProviderImpactToOtherRelationshipsComfortLevel",
+          "type": "multiple_choice",
+          "title": "Have you considered the impact of caregiving on your personal relationships, such as with a spouse or children?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "BTQykEURVcIq",
+              "ref": "ab91ace2-a230-4d20-9c01-829048bdebf9",
+              "label": "Yes, and it won't significantly impact these relationships"
+            },
+            {
+              "id": "jXUidGppWsO1",
+              "ref": "90e6f5cb-49cf-42e5-b41b-b0b5cbdc82f3",
+              "label": "Yes, and there may be some impact"
+            },
+            {
+              "id": "4Xw7O1jkbsBK",
+              "ref": "854355fb-05a4-418a-89c2-e18b4e6c0b03",
+              "label": "I haven't considered this"
+            },
+            {
+              "id": "y5833YfsgTXr",
+              "ref": "a7addceb-ef87-4634-9609-2b074b608afa",
+              "label": "This is a significant concern for me"
+            }
+          ]
+        },
+        {
+          "id": "P8WgnQDTubtR",
+          "ref": "supportProviderPersonalCareTasksComfortLevel",
+          "type": "multiple_choice",
+          "title": "How do you feel about potentially needing to assist with personal care tasks, such as bathing, toileting, or feeding?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "zEjJAh4RBLKL",
+              "ref": "b340c460-9ffb-4cc6-b0c7-6fb14f74bac4",
+              "label": "Comfortable"
+            },
+            {
+              "id": "qE15f7gkQ2j2",
+              "ref": "ff41a935-42f3-4acf-a3ed-fa84a7f08ded",
+              "label": "Somewhat comfortable"
+            },
+            {
+              "id": "t7vlzSDYB6ab",
+              "ref": "d6623bb1-860c-4b19-a2a9-4af7d84f67f1",
+              "label": "Uncomfortable but willing to learn"
+            },
+            {
+              "id": "A7HinnAhd2gg",
+              "ref": "7cff5e5d-a29f-4a2d-b1dc-27e6a3b6cf5f",
+              "label": "Very uncomfortable"
+            }
+          ]
+        },
+        {
+          "id": "zRFIGGzKeWcZ",
+          "ref": "supportProviderHealthcareNavigationComfortLevel",
+          "type": "multiple_choice",
+          "title": "Are you aware of and ready to navigate the healthcare system on behalf of the care recipient?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "ku6p4FYKe5LN",
+              "ref": "0481525f-77e2-4e36-b453-35bd9e49bb11",
+              "label": "Very ready"
+            },
+            {
+              "id": "2W8Z5JLHTkBq",
+              "ref": "fdb5cbd7-b94f-48b9-aca3-f247b2603d86",
+              "label": "Somewhat ready"
+            },
+            {
+              "id": "pkLZWg53iASs",
+              "ref": "ab08c56a-b75f-45d3-817d-3b06469f5c9a",
+              "label": "I could use more information"
+            },
+            {
+              "id": "cDGVfrkuWBpO",
+              "ref": "59885fdf-7d98-4672-a721-908d5af25837",
+              "label": "Not ready"
+            }
+          ]
+        }
+      ],
+      "endings": [
+        {
+          "id": "kmrKnFLuWQz5",
+          "ref": "roleFitByCaregiverEnd",
+          "title": "",
+          "type": "thankyou_screen",
+          "properties": {
+            "button_text": "Create a typeform",
+            "show_button": true,
+            "share_icons": true,
+            "button_mode": "default_redirect"
+          }
+        }
+      ]
+    },
+    "answers": [
+      {
+        "type": "choice",
+        "choice": {
+          "id": "GLXK8lDs6Csk",
+          "label": "Outgoing",
+          "ref": "01HAQB3HFBM89A1XZET2JG52F9"
+        },
+        "field": {
+          "id": "Za4l8gLr0abk",
+          "type": "multiple_choice",
+          "ref": "supportProviderPersonality"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "N6fs5I0X40gG",
+          "label": "I seek support from others",
+          "ref": "cee11343-6a6b-440c-8d4b-3f19b6a98f2e"
+        },
+        "field": {
+          "id": "UI126UGxCULN",
+          "type": "multiple_choice",
+          "ref": "supportProviderStressCopingPreference"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "jbY0FAWf4qlQ",
+          "label": "Neutral",
+          "ref": "db28725e-205c-4e5a-98ee-4d0b5d5d75b2"
+        },
+        "field": {
+          "id": "bFdxkQ578ihs",
+          "type": "multiple_choice",
+          "ref": "supportProviderRelationshipWithClient"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "fpZZjDuuU2Yw",
+          "label": "We communicate and compromise",
+          "ref": "10ec5f92-0925-4532-9506-9a03ea26002e"
+        },
+        "field": {
+          "id": "21LfwEHjBqNS",
+          "type": "multiple_choice",
+          "ref": "supportProviderConflictResolutionWithCareRecipientPreferences"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "yHn7BnM2bI8r",
+          "label": "High level of trust",
+          "ref": "05181fc9-0237-464d-bc98-001645f962bb"
+        },
+        "field": {
+          "id": "TtOEfitdng0N",
+          "type": "multiple_choice",
+          "ref": "supportProviderToClientTrustLevel"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "siP9KAs8xEy5",
+          "label": "Monthly",
+          "ref": "45697f22-d30e-4933-98be-a46aef09b330"
+        },
+        "field": {
+          "id": "HFozVtYI506l",
+          "type": "multiple_choice",
+          "ref": "supportProviderCommunicationFrequency"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "KqGUbJ5ul8iA",
+          "label": "Not very emotionally close",
+          "ref": "3707c49c-14a6-44f3-8a45-f6e0050c4d3b"
+        },
+        "field": {
+          "id": "lpGlxIR5eoeT",
+          "type": "multiple_choice",
+          "ref": "supportProviderEmotionalClosenessLevel"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "FgGxUYnEBhoT",
+          "label": "Emotional support provider, offering comfort and companionship",
+          "ref": "d36c9058-7966-480d-a948-1ee81add2b7a"
+        },
+        "field": {
+          "id": "HkCYGNmLhsbt",
+          "type": "multiple_choice",
+          "ref": "supportProviderRolePreference"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "ACsugyzSGeK9",
+          "label": "Assisting with daily activities",
+          "ref": "7f6d7c94-eabe-4c0c-b547-810f2f9ce9e5"
+        },
+        "field": {
+          "id": "A466yKIW35Bm",
+          "type": "multiple_choice",
+          "ref": "supportProviderValidCircumstancePreferences"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "CRvzda7W7arb",
+          "label": "Willing, but with some reservations",
+          "ref": "9817dbb8-b7e9-4145-8a9a-66dc95cbc61a"
+        },
+        "field": {
+          "id": "lx6t6QKwWCkG",
+          "type": "multiple_choice",
+          "ref": "supportProviderCareWillingnessCapabilitiyComfortLevel"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "KfQHzsawxW2b",
+          "label": "Very unstable",
+          "ref": "cbe39feb-49fa-42fd-947d-aabb6a7703af"
+        },
+        "field": {
+          "id": "w5n83RrExj76",
+          "type": "multiple_choice",
+          "ref": "supportProviderFinancialStabilityLevel"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "E5btNuCyepZO",
+          "label": "Little to no experience/knowledge",
+          "ref": "bb03ac0f-9d52-484a-abd2-bf97fb391ead"
+        },
+        "field": {
+          "id": "0q7gePKnjqNp",
+          "type": "multiple_choice",
+          "ref": "supportProviderExperienceLevel"
+        }
+      },
+      {
+        "type": "choices",
+        "choices": {
+          "ids": [
+            "NQT8sBJoOmtO"
+          ],
+          "labels": [
+            "Friends or neighbors"
+          ],
+          "refs": [
+            "99c16650-0496-4f52-867e-680dc43aa2ad"
+          ]
+        },
+        "field": {
+          "id": "KNWqrSZJ31Y8",
+          "type": "multiple_choice",
+          "ref": "supportProviderSupportNetwork"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "EITxinyYH0vW",
+          "label": "Very close",
+          "ref": "ac2cdbb9-f884-4636-8586-5e405c583e8e"
+        },
+        "field": {
+          "id": "tK3t7mLsdySr",
+          "type": "multiple_choice",
+          "ref": "supportProviderRelationshipToCareRecipient"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "5eupXdj3oacD",
+          "label": "20-30 hours",
+          "ref": "1bbae89f-feb1-40eb-a44d-b1062171f9db"
+        },
+        "field": {
+          "id": "mPdkfMU3ugua",
+          "type": "multiple_choice",
+          "ref": "supportProviderHoursPerWeek"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "JN6R1WHhQ0cP",
+          "label": "Somewhat comfortable",
+          "ref": "4a49a49c-9f1f-435b-b401-ac4f680838ff"
+        },
+        "field": {
+          "id": "1GWyHnFMFjlh",
+          "type": "multiple_choice",
+          "ref": "supportProviderRelationshipForecast"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "tdjQ816Db8iO",
+          "label": "Neutral",
+          "ref": "f7edeb9f-c089-4bb6-af04-3293d412783b"
+        },
+        "field": {
+          "id": "msTut6BB7fZp",
+          "type": "multiple_choice",
+          "ref": "supportProviderEmotionalStrainForecast"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "vU2I7JtxU3Rv",
+          "label": "Very concerned",
+          "ref": "49fedb4a-9ffa-4f10-8bfc-34fa34534d00"
+        },
+        "field": {
+          "id": "w3rxf4PgpfpF",
+          "type": "multiple_choice",
+          "ref": "supportProviderFinancialWorryLevel"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "S7AWnsAcUmm3",
+          "label": "Very likely",
+          "ref": "5a934f98-073f-4d60-9705-d6262c4b4762"
+        },
+        "field": {
+          "id": "qjdf5DfuHDUB",
+          "type": "multiple_choice",
+          "ref": "supportProviderCareInterferenceLevel"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "fissmGXj6Ea8",
+          "label": "Somewhat high",
+          "ref": "e047e7db-2c63-4ffa-90f6-40751b9a2a47"
+        },
+        "field": {
+          "id": "bDEE8CrwujLQ",
+          "type": "multiple_choice",
+          "ref": "supportProviderPhysicalStressLevel"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "0NJviBTWUWTe",
+          "label": "Neutral",
+          "ref": "080f0848-6b47-4a7b-ba45-99218ec5a6b0"
+        },
+        "field": {
+          "id": "JYLxUBndBXf6",
+          "type": "multiple_choice",
+          "ref": "supportProviderEmotionalStressLevel"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "6gOPppQe1V52",
+          "label": "No",
+          "ref": "527238f1-8a7d-4491-a874-fadeb5f6a199"
+        },
+        "field": {
+          "id": "aAY86zGrmT40",
+          "type": "multiple_choice",
+          "ref": "supportProviderDependentFamilyLevel"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "ZAPPdzxDDQa5",
+          "label": "Yes, significantly",
+          "ref": "4a52cb8d-fc6b-4ef1-80e6-19ad53922f66"
+        },
+        "field": {
+          "id": "K0WlyEp03bX0",
+          "type": "multiple_choice",
+          "ref": "supportProviderChronicHealthIssueLevel"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "VwIToGgPvtHX",
+          "label": "Understand to some extent",
+          "ref": "65ba3ec2-011c-4cae-bfb4-fb134cf4ea0a"
+        },
+        "field": {
+          "id": "A6YonHsWq5IA",
+          "type": "multiple_choice",
+          "ref": "supportProviderMedicalFamiliarityLevel"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "f459ChZw4K5W",
+          "label": "Neutral",
+          "ref": "acd8b567-ba1e-40d4-96b3-48baeac04b06"
+        },
+        "field": {
+          "id": "NBUIE2JtKUbU",
+          "type": "multiple_choice",
+          "ref": "supportProviderTrainingComfortLevel"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "Cal90WH5yLO8",
+          "label": "Home health care services",
+          "ref": "56cdad52-7c4e-40e0-a219-40b8470d1031"
+        },
+        "field": {
+          "id": "B8dbBkzunFYF",
+          "type": "multiple_choice",
+          "ref": "supportProviderSupportServiceComfortLevel"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "UcHKbi5P8ozT",
+          "label": "Somewhat comfortable",
+          "ref": "7521b070-f7fa-47ae-9e37-7bddb1958d70"
+        },
+        "field": {
+          "id": "36bbKhoeyDAK",
+          "type": "multiple_choice",
+          "ref": "supportProviderEndOfLiveComfortLevel"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "KzqC7fSyT4Sm",
+          "label": "Not sure",
+          "ref": "6c1f1e0f-29c1-449a-8a41-e0c4ba0d835a"
+        },
+        "field": {
+          "id": "GyeZtz9Ftifz",
+          "type": "multiple_choice",
+          "ref": "supportProviderDecisionMakingVoiceLevel"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "sopbFgFvVy1W",
+          "label": "Neutral",
+          "ref": "82aabbc8-0291-4479-af97-49437bc1814f"
+        },
+        "field": {
+          "id": "p2OgJGiVaNoS",
+          "type": "multiple_choice",
+          "ref": "supportProviderSetbackComfortLevel"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "dyXS7ktRFm2s",
+          "label": "Very prepared",
+          "ref": "e4abcaab-2e40-4faf-9ea6-3c5a7283a476"
+        },
+        "field": {
+          "id": "vD9BTkqLVovy",
+          "type": "multiple_choice",
+          "ref": "supportProviderDurationComfortLevel"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "uOGHYXZNVLXD",
+          "label": "Somewhat capable",
+          "ref": "d97a7bcb-29d3-4874-93e5-0fda6f4225ec"
+        },
+        "field": {
+          "id": "wijt3091jGNx",
+          "type": "multiple_choice",
+          "ref": "supportProviderFinancialResponsibilityComfortLevel"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "MzCLgXGpBRRL",
+          "label": "I have not considered this",
+          "ref": "323e5aa2-131b-4fd6-b17d-28854677e589"
+        },
+        "field": {
+          "id": "jWr0KsuR31Ct",
+          "type": "multiple_choice",
+          "ref": "supportProviderAppreciationComfortLevel"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "rFj7IvpOyLhr",
+          "label": "I have effective coping strategies",
+          "ref": "eb35e916-a8dc-4b67-95c8-54360505d0ab"
+        },
+        "field": {
+          "id": "W2Sis2pMG2Eb",
+          "type": "multiple_choice",
+          "ref": "supportProviderOverwhelmPreferences"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "4Xw7O1jkbsBK",
+          "label": "I haven't considered this",
+          "ref": "854355fb-05a4-418a-89c2-e18b4e6c0b03"
+        },
+        "field": {
+          "id": "eGZzDyqIfBa9",
+          "type": "multiple_choice",
+          "ref": "supportProviderImpactToOtherRelationshipsComfortLevel"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "zEjJAh4RBLKL",
+          "label": "Comfortable",
+          "ref": "b340c460-9ffb-4cc6-b0c7-6fb14f74bac4"
+        },
+        "field": {
+          "id": "P8WgnQDTubtR",
+          "type": "multiple_choice",
+          "ref": "supportProviderPersonalCareTasksComfortLevel"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "pkLZWg53iASs",
+          "label": "I could use more information",
+          "ref": "ab08c56a-b75f-45d3-817d-3b06469f5c9a"
+        },
+        "field": {
+          "id": "zRFIGGzKeWcZ",
+          "type": "multiple_choice",
+          "ref": "supportProviderHealthcareNavigationComfortLevel"
+        }
+      }
+    ],
+    "ending": {
+      "id": "kmrKnFLuWQz5",
+      "ref": "roleFitByCaregiverEnd"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "typeRoots": [
+      "./src/types",
+      "../shared/src/types",
+      "../../node_modules/@types"
+    ],
+    "paths": {
+      "@shared": ["../shared/src"],
+      "@client": ["../client/src"],
+      "@server": ["../server/src"],
+      "@shared/*": ["../shared/src/*"],
+      "@client/*": ["../client/src/*"],
+      "@server/*": ["../server/src/*"],
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "src",
+    "../shared/src/types/interfaces.tsx",
+    "../shared/src/LtcPolicyContext.ts"
+  ],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
