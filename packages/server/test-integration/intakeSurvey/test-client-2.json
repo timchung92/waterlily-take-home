@@ -1,0 +1,1621 @@
+{
+  "event_id": "01JFRZN16JA0J4GZ6FJFXS22PY",
+  "event_type": "form_response",
+  "form_response": {
+    "form_id": "xI53j0sD",
+    "token": "eeu403azuhjrwmgkayg7vweeu4034f78",
+    "landed_at": "2024-12-23T05:21:06Z",
+    "submitted_at": "2024-12-23T05:25:47Z",
+    "hidden": {
+      "advisor_id": "ace3-43f",
+      "client_email": "tony@test.com",
+      "consent": "true",
+      "custom_group_plan": "_____",
+      "custom_skip_care_planning": "_____",
+      "first_name": "Tony",
+      "last_name": "Test",
+      "organization_name": "Waterlily Planning",
+      "should_send_client_email": "false",
+      "survey_id": "ee787c01-bf6d-46d3-b996-7843b6c02058"
+    },
+    "definition": {
+      "id": "xI53j0sD",
+      "title": "Active Dev Intake Form Aug 1 2024",
+      "fields": [
+        {
+          "id": "OevrA1xT2KuQ",
+          "ref": "clientIntakeFormLength",
+          "type": "multiple_choice",
+          "title": "The *more questions *you answer, the* more accurate* our predictions will be.\n\nThe* short version* takes *~4 minutes. *\nThe *long version* takes *~7 minute*s and provides* more precise projections*.\n\nWhich one would you like to complete?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "ye57EW3qAnJv",
+              "ref": "3a90f514-cc41-40f0-9f45-74abb2887213",
+              "label": "Short version"
+            },
+            {
+              "id": "aE7NXlsjg0BU",
+              "ref": "0ac664a8-7373-4340-b6d2-34c741dcf67f",
+              "label": "Long version"
+            }
+          ]
+        },
+        {
+          "id": "jtRJ41HEncJS",
+          "ref": "clientEmail",
+          "type": "email",
+          "title": "What email address would like us to send your results to?",
+          "properties": {}
+        },
+        {
+          "id": "2wUR6rBsfwS1",
+          "ref": "clientMaritalStatus",
+          "type": "multiple_choice",
+          "title": "What is your marital status?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "cospGzjwE0OX",
+              "ref": "3fac65b3-906c-4703-afb9-896065d7dfcc",
+              "label": "Never married"
+            },
+            {
+              "id": "YkoibNHGlzdH",
+              "ref": "a9853a68d21c00ad",
+              "label": "Married"
+            },
+            {
+              "id": "2tylWgV5oQAn",
+              "ref": "4af5d07b-2edb-4927-993c-f25ccf730396",
+              "label": "Married, spouse absent"
+            },
+            {
+              "id": "ZKn0Kgg4Ic5P",
+              "ref": "b5832483-1c00-449a-b5a2-d87bef79a06f",
+              "label": "Partnered"
+            },
+            {
+              "id": "VrJFb0YDVg2p",
+              "ref": "c3f68d00-b42a-4602-819f-652484ebba8a",
+              "label": "Separated"
+            },
+            {
+              "id": "fcdhvXstcVu2",
+              "ref": "6593bd0c-ebac-473e-a303-3cd95129c570",
+              "label": "Divorced"
+            },
+            {
+              "id": "fzc3Udak5KX6",
+              "ref": "c081b9d9-7695-4b77-830f-70c8fb3c51ed",
+              "label": "Widowed"
+            },
+            {
+              "id": "BxvqBMqULDMO",
+              "ref": "c2094d72-369c-4b5f-b0dd-cd69ad37b6a5",
+              "label": "I don't know / prefer not to answer"
+            }
+          ]
+        },
+        {
+          "id": "UcqWeFyM6nq9",
+          "ref": "partnerFirstName",
+          "type": "short_text",
+          "title": "What is your partner's first name?",
+          "properties": {}
+        },
+        {
+          "id": "0hk08YnsHYNS",
+          "ref": "partnerLastName",
+          "type": "short_text",
+          "title": "What is their last name?",
+          "properties": {}
+        },
+        {
+          "id": "FCPe8t7Ve4YQ",
+          "ref": "householdPartnered",
+          "type": "multiple_choice",
+          "title": "Do you live with {{field:partnerFirstName}}?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "GuBKCHhRlPqd",
+              "ref": "46e86b95-7982-478c-87a5-3a438420bcd5",
+              "label": "Yes"
+            },
+            {
+              "id": "u1GbOchKjrRI",
+              "ref": "23521462-579c-4fa7-a6a3-2c00950946b8",
+              "label": "No"
+            },
+            {
+              "id": "SgCoxelhQ9n2",
+              "ref": "2239cb6d-35e6-4913-b5c1-2ee1d1a901ed",
+              "label": "I don't know / prefer not to answer"
+            }
+          ]
+        },
+        {
+          "id": "qocosF2QQORX",
+          "ref": "householdHouseholdSize",
+          "type": "number",
+          "title": "How many individuals, including yourself, currently reside in your household?",
+          "properties": {}
+        },
+        {
+          "id": "mAtgWAIFRnay",
+          "ref": "clientBirthDate",
+          "type": "date",
+          "title": "What is your birth date?",
+          "properties": {}
+        },
+        {
+          "id": "GIHJO3Z8Ru5F",
+          "ref": "clientGenderAtBirth",
+          "type": "multiple_choice",
+          "title": "What sex were you assigned at birth?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "j9BFRnWZwRO9",
+              "ref": "4f2770ef-e817-43ef-8808-9e0b76e71381",
+              "label": "Male"
+            },
+            {
+              "id": "VPekKOaHI2oO",
+              "ref": "832b4eda-2a70-430c-8c5a-73b71fcb296a",
+              "label": "Female"
+            },
+            {
+              "id": "0nOKTirfYkyy",
+              "ref": "78b22eb5-2099-40f3-bac0-f63888cf97f4",
+              "label": "Intersex"
+            },
+            {
+              "id": "MlefyNNiHgYB",
+              "ref": "b6358402-7707-4d90-ab1c-42803fd92628",
+              "label": "I don't know / prefer not to answer"
+            }
+          ]
+        },
+        {
+          "id": "fXjjujhoaXVA",
+          "ref": "clientPreferDifferentPronouns",
+          "type": "multiple_choice",
+          "title": "Do you want to give us different pronouns?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "6z7z8Ya0KI4r",
+              "ref": "54c51024-2054-4732-ba50-37c23449bfae",
+              "label": "No"
+            },
+            {
+              "id": "UmCZWcqIrAXn",
+              "ref": "a72eb812-055e-491a-990c-d0fdb178a921",
+              "label": "Yes, I identify as something else"
+            }
+          ]
+        },
+        {
+          "id": "HXSitLQ1FalX",
+          "ref": "clientRace",
+          "type": "multiple_choice",
+          "title": "How do you identify in terms of race or ethnicity?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "zAe1wkAyU8z3",
+              "ref": "23bf0b5a-504c-4936-b6d5-11466a87cb15",
+              "label": "White or European (e.g., German, Irish, English, Italian, Polish, French, etc.)"
+            },
+            {
+              "id": "fCVUwpHtoQOr",
+              "ref": "d049c8c2-e391-4779-b34c-a6cd92b68088",
+              "label": "Asian or Asian American (e.g., Chinese, Japanese, Filipino, Korean, South Asian, Vietnamese, etc.)"
+            },
+            {
+              "id": "WwI1eVhEovZS",
+              "ref": "8b75a606-2401-43a5-a421-e8dd7aa29c4d",
+              "label": "Hispanic or Latino/a (e.g., Puerto Rican, Mexican, Cuban, Salvadoran, Colombian, etc.)"
+            },
+            {
+              "id": "wTEeEfAUd7mK",
+              "ref": "c9782749-5cbf-4939-a7f4-d3fff855c677",
+              "label": "Black or African American (e.g., Jamaican, Nigerian, Haitian, Ethiopian, etc.)"
+            },
+            {
+              "id": "WJXd4ByLTVRD",
+              "ref": "a91dbf3f-6790-4cb7-b136-40fde032c401",
+              "label": "Middle Eastern or North African (e.g., Lebanese, Iranian, Egyptian, Moroccan, Israeli, Palestinian, etc.)"
+            },
+            {
+              "id": "QmYxb5NomsZv",
+              "ref": "09aa1591-86be-449f-a9c2-58e0df37f2db",
+              "label": "Native Hawaiian or Pacific Islander (e.g., Samoan, Guamanian, Chamorro, Tongan, etc.)"
+            },
+            {
+              "id": "5CGrW6ozngOD",
+              "ref": "202cbb80-939f-46a0-bf0c-e4f0aadff0c9",
+              "label": "American Indian or Alaska Native (e.g., Navajo Nation, Blackfeet Tribe, Inupiat Traditional Government, etc.)"
+            },
+            {
+              "id": "vM9xvatEvVMX",
+              "ref": "ec5007cd-7c3b-4551-b4ae-24112da238cc",
+              "label": "Other"
+            },
+            {
+              "id": "YHDflFb7wQu6",
+              "ref": "b26565e2-588f-4c88-8722-2a040cfa2328",
+              "label": "I don't know / prefer not to answer"
+            }
+          ]
+        },
+        {
+          "id": "HekPoNnCde5z",
+          "ref": "clientZipCode",
+          "type": "short_text",
+          "title": "What is the zip code of your primary residence?",
+          "properties": {}
+        },
+        {
+          "id": "8mDvhyHg40va",
+          "ref": "clientHasDifferentLtcZipCode",
+          "type": "yes_no",
+          "title": "Do you want to provide a different zip code for the area you plan to live if you need long-term care?",
+          "properties": {}
+        },
+        {
+          "id": "oICTjX3O6t8G",
+          "ref": "householdTotalAssetsValue",
+          "type": "number",
+          "title": "What is your net worth, or the total value of all your assets (like property, investments) minus any debts?",
+          "properties": {}
+        },
+        {
+          "id": "YFdlELcFGH7e",
+          "ref": "householdLiquidAssetsValue",
+          "type": "number",
+          "title": "How much of your net worth is invested in appreciating assets that you could sell to cover your LTC costs?",
+          "properties": {}
+        },
+        {
+          "id": "3HKN9wcWFcrS",
+          "ref": "householdLiquidAssetsAnnualGrowthRate",
+          "type": "number",
+          "title": "What % do you expect those assets to grow in value by each year, on average?",
+          "properties": {}
+        },
+        {
+          "id": "u4ylFvjOzzki",
+          "ref": "clientLivingSiblingsCount",
+          "type": "number",
+          "title": "How many siblings do you have?",
+          "properties": {}
+        },
+        {
+          "id": "UzSjnmNE5kCM",
+          "ref": "householdLivingChildrenCount",
+          "type": "number",
+          "title": "How many children do you have (including stepchildren)?",
+          "properties": {}
+        },
+        {
+          "id": "dkxctYj926LS",
+          "ref": "clientIndependencePreference",
+          "type": "multiple_choice",
+          "title": "Which of these statements best describes where you want to age as your physical care needs progress?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "ufI5hc7gy6i2",
+              "ref": "9a95d692-fea3-4465-aba9-f766791c68a1",
+              "label": "I prioritize staying in my own home for as long as possible."
+            },
+            {
+              "id": "cJVYxL2FqDgH",
+              "ref": "29a36686-06c1-4af4-aa1e-cf6c19395bdf",
+              "label": "I am open to living in a supportive community that balances independence with available assistance."
+            },
+            {
+              "id": "sJn9Ueb93vAP",
+              "ref": "262ee1e3-d824-4bf6-bf75-97604f4d6d37",
+              "label": "I prefer a comprehensive care setting where all my needs are managed and I can receive constant care."
+            }
+          ]
+        },
+        {
+          "id": "5E5RYvisuDBF",
+          "ref": "clientFamilyInvolvementPreference",
+          "type": "multiple_choice",
+          "title": "How do you feel about your family members being actively involved in providing you with day-to-day physical care?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "slEIHbY9MDL2",
+              "ref": "3868c53c-df7e-4f06-ad3d-7dd163b7dcd4",
+              "label": "I prefer no direct care from family members, I will rely solely upon professional care providers."
+            },
+            {
+              "id": "u6cgCue8iTyl",
+              "ref": "466cf122-4a20-42dc-a6d2-160a2d1ab2dc",
+              "label": "I prefer minimal direct care from family members, leaning more towards professional care providers."
+            },
+            {
+              "id": "V4jc0uKmbX9U",
+              "ref": "93d51500-458b-40b3-8616-d799ab809b11",
+              "label": "I am comfortable with a balanced approach, where family members provide some care along with professional caregivers."
+            },
+            {
+              "id": "WJDmBd7pHvYh",
+              "ref": "e7893aa3-42a1-4cdb-8624-70623b4e8838",
+              "label": "I would like my family members to be heavily involved in my daily care, taking a primary role in providing assistance."
+            }
+          ]
+        },
+        {
+          "id": "Un5hPKtINOZq",
+          "ref": "clientFinancialSecurityPreference",
+          "type": "multiple_choice",
+          "title": "Which statement best describes your views on balancing cost and personal preferences in long-term care?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "6TAu0EgWyfbV",
+              "ref": "7233a8be-6393-4132-9328-08e2d5d3226e",
+              "label": "Finding affordable care is my main concern."
+            },
+            {
+              "id": "Q3gPqHAEMHgo",
+              "ref": "03eea526-0d60-4c72-bbd4-f91febd2dc94",
+              "label": "While cost is important, I want to balance my preferences for aging as much as possible."
+            },
+            {
+              "id": "JDHOSpQxIr52",
+              "ref": "6e01fa0a-9a04-49df-b5aa-924196e355c0",
+              "label": "Cost is not a concern for me; I prioritize care that aligns with my aging preferences."
+            }
+          ]
+        },
+        {
+          "id": "VqLIAKOG4pwm",
+          "ref": "legalDocuments",
+          "type": "multiple_choice",
+          "title": "Do you have any of the following set up?",
+          "properties": {},
+          "allow_multiple_selections": true,
+          "choices": [
+            {
+              "id": "fY1skHfPjJbB",
+              "ref": "eddda0bb-578d-4181-b231-156a52ae21e7",
+              "label": "Advance Directive (or Healthcare Directive) / Advance statements"
+            },
+            {
+              "id": "lsC7ynrxjBzI",
+              "ref": "c9b664f2-f31f-48c8-a696-615c49898976",
+              "label": "Living Wills / CPR & DNR"
+            },
+            {
+              "id": "s2Wvuv3LfCat",
+              "ref": "59b3dc05-5406-4b8e-8538-d8b6b708367a",
+              "label": "Trusts"
+            },
+            {
+              "id": "gCcRXpfOdDoU",
+              "ref": "df66e1c9-3eec-46d9-87aa-813fe3435309",
+              "label": "Durable Healthcare Power of Attorney/ Medical POA"
+            },
+            {
+              "id": "FRX9jHThdIMK",
+              "ref": "998460c9-45d8-4347-93ca-87542dacc3d7",
+              "label": "Conservatorship / Durable POA - control of assets / Durable Power of Attorney for Assets"
+            },
+            {
+              "id": "QPLIkvbb4eNc",
+              "ref": "7f006bb4-2091-4648-84ae-56705606f34b",
+              "label": "Funeral Arrangements"
+            },
+            {
+              "id": "qhycekbDfguN",
+              "ref": "11efd67f-db53-4845-9a9a-c94df4eb3118",
+              "label": "I don't know / prefer not to answer"
+            },
+            {
+              "id": "WX85jOzoP4TM",
+              "ref": "199b65e8-4fe0-4ef3-86bf-933add4db721",
+              "label": "None of these"
+            }
+          ]
+        },
+        {
+          "id": "eGqTMycyQ9at",
+          "ref": "clientProfessionalSupportNetworkList",
+          "type": "multiple_choice",
+          "title": "Are you working with any of the following?",
+          "properties": {},
+          "allow_multiple_selections": true,
+          "allow_other_choice": true,
+          "choices": [
+            {
+              "id": "xh7BrmdGdV09",
+              "ref": "d3aac622-8419-4260-b023-627ce853337d",
+              "label": "Financial advisor"
+            },
+            {
+              "id": "yTLLu5kkvtY7",
+              "ref": "c674cc82-1b2a-43dd-907e-24898a75e794",
+              "label": "Estate planner"
+            },
+            {
+              "id": "EQvx64laLK0s",
+              "ref": "deda0c81-2bfb-416f-ba10-9599cd6803dd",
+              "label": "Care coordinator"
+            },
+            {
+              "id": "PmwSNCaxKMiK",
+              "ref": "6cc96031-55fd-4584-8bbd-b00a87c0ebb7",
+              "label": "Insurance broker"
+            },
+            {
+              "id": "yUzurwzy4E1x",
+              "ref": "1c124184-9512-4a56-9143-2177c8864ead",
+              "label": "I'm not working with anyone"
+            }
+          ]
+        },
+        {
+          "id": "GNSbNGVfXX4a",
+          "ref": "clientMentalHealthIssuesList",
+          "type": "multiple_choice",
+          "title": "\nWhich of the following statements describe feelings or experiences you have had at least three times in the past week?",
+          "properties": {},
+          "allow_multiple_selections": true,
+          "choices": [
+            {
+              "id": "4P4VLQSIj6AB",
+              "ref": "de25f293-e285-41b6-8fe2-5c1ba2405a11",
+              "label": "I found that everything requires significant effort"
+            },
+            {
+              "id": "TvyrgU27T7nv",
+              "ref": "ac05b04d-6ac3-4fb0-89d0-f16943e411cf",
+              "label": "I felt sad"
+            },
+            {
+              "id": "X8RNsLz7sLaI",
+              "ref": "95a3432a-9a77-455e-8151-389d5282f9aa",
+              "label": "I experienced restless sleep"
+            },
+            {
+              "id": "ZRQwovduwtRd",
+              "ref": "1ed2dfb9-2e4d-49c5-92c4-7ceba1b7a827",
+              "label": "I felt lonely"
+            },
+            {
+              "id": "j6UyrERsUp9v",
+              "ref": "bf5837f7-9acc-48ca-be67-f5ef8c4fb068",
+              "label": "I felt depressed"
+            },
+            {
+              "id": "R3Br2JfzqN02",
+              "ref": "9e4c3bed-1894-447a-adbd-5253b3d155c7",
+              "label": "I don't know / prefer not to answer"
+            },
+            {
+              "id": "NewjsR9GLNKI",
+              "ref": "17706822-61cf-4c3e-bd19-0db841c51f83",
+              "label": "None of these"
+            }
+          ]
+        },
+        {
+          "id": "P26xykpPmqJY",
+          "ref": "clientSmokerEver",
+          "type": "multiple_choice",
+          "title": "Have you ever smoked more than 25 cigarettes in your lifetime?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "uWCYLGFbm0Rm",
+              "ref": "172ed1c6-89ad-4ee4-8d21-2ba83ca400cb",
+              "label": "Yes"
+            },
+            {
+              "id": "AWlcxHcwJ4ve",
+              "ref": "192f2229-be45-4f2f-94d5-851df4e3c0df",
+              "label": "No"
+            },
+            {
+              "id": "ZWoQOsd2Qk2J",
+              "ref": "8cc9d2ff-52cb-4c37-8080-353baaf06e7a",
+              "label": "I don't know / prefer not to answer"
+            }
+          ]
+        },
+        {
+          "id": "yc1K2XUANEe5",
+          "ref": "clientUsesRegularPrescriptionDrugs",
+          "type": "multiple_choice",
+          "title": "Are you prescribed any medications that you take at least monthly?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "6RENlNvjH444",
+              "ref": "bbd2e985-6964-4484-b2e7-858cb88a3b16",
+              "label": "Yes"
+            },
+            {
+              "id": "7l1xS8ks2hot",
+              "ref": "3e142bc0-45d4-45f9-aff5-400f2b4ba0b8",
+              "label": "No"
+            },
+            {
+              "id": "znsA4BPO5QFx",
+              "ref": "6441e44a-deb7-4335-aec3-2e56820c503a",
+              "label": "I don't know / prefer not to answer"
+            }
+          ]
+        },
+        {
+          "id": "qDKdLNB4lvbp",
+          "ref": "clientWeightPounds",
+          "type": "number",
+          "title": "How much do you weigh?",
+          "properties": {}
+        },
+        {
+          "id": "cSa9ZzFPtRI8",
+          "ref": "clientHeightInches",
+          "type": "dropdown",
+          "title": "How tall are you?",
+          "properties": {}
+        },
+        {
+          "id": "U1zxq6gjyiZe",
+          "ref": "clientPriorTwoYearHospitalizationCount",
+          "type": "number",
+          "title": "How many prior hospitalizations (stayed overnight) have you had in the last two years?",
+          "properties": {}
+        },
+        {
+          "id": "9d4IeYm09RoD",
+          "ref": "clientDifficultyWithTasks",
+          "type": "yes_no",
+          "title": "Do you have any difficulty with common daily tasks due to an impairment or are you currently receiving long-term care?",
+          "properties": {}
+        },
+        {
+          "id": "jkwRe6m1gozJ",
+          "ref": "clientDiagnosesList",
+          "type": "multiple_choice",
+          "title": "In the past 10 years, has a licensed member of the medical profession treated you for, or made a diagnosis of any of the following?",
+          "properties": {},
+          "allow_multiple_selections": true,
+          "choices": [
+            {
+              "id": "Um0s9QBwyidG",
+              "ref": "4ac0dcfe-9faa-4021-8b79-13e21c0f5dd5",
+              "label": "High blood pressure"
+            },
+            {
+              "id": "oQigDmWz7ZlS",
+              "ref": "f4d9e9b2-efb1-404f-8ee3-285c02b4243a",
+              "label": "Heart attack, chest discomfort, heart murmur, circulatory or heart disorder"
+            },
+            {
+              "id": "uGI4zwsdMzUT",
+              "ref": "41bb1b02-d605-453b-b3a2-dcd158990356",
+              "label": "Diabetes"
+            },
+            {
+              "id": "MNePFlMVDfK1",
+              "ref": "92f5954c-2f90-48b3-b05e-e135167d0f8e",
+              "label": "Thyroid disorder, elevated cholesterol, or other endocrine or metabolic disorder"
+            },
+            {
+              "id": "bJA9CCgTspKa",
+              "ref": "c8b98dda-fe59-4d12-bc61-d633b3326be5",
+              "label": "Asthma, shortness of breath, sleep apnea or any other lung/respiratory disorder"
+            },
+            {
+              "id": "bttwXiqEueCR",
+              "ref": "94916617-97e5-42c8-993b-17c272149a29",
+              "label": "Any disorder of stomach, liver, or digestive system (e.g., hepatitis, ulcer, colitis)"
+            },
+            {
+              "id": "eOaOUlqYufPi",
+              "ref": "79ef3318-44c5-415b-a097-9992aa7071db",
+              "label": "Seizures, stroke, fainting, paralysis, falls, or any other disorder of brain/nervous system"
+            },
+            {
+              "id": "NLGTIJ562P39",
+              "ref": "f0e3018b-5627-4cb9-af7e-1b168d636b53",
+              "label": "Alzheimers disease, dementia, memory impairment, Parkinson’s disease, or any other progressive neurological disease"
+            },
+            {
+              "id": "LH3K7c8Itfpt",
+              "ref": "badbb660-2f86-481a-ac6c-1b82a8ebd26b",
+              "label": "Emotional, nervous, or psychiatric conditions (e.g. depression, anxiety, bipolar or borderline personality disorders, Schizophrenia)"
+            },
+            {
+              "id": "JNaRCavjt1u5",
+              "ref": "c2a439a2-2e6a-4e5b-b924-85698991d8ad",
+              "label": "Cancer, tumor, polyp, cyst"
+            },
+            {
+              "id": "CuYW4CmsMmko",
+              "ref": "f2e821a1-bdc3-4708-93ca-d5be61bd2b02",
+              "label": "Disorder of eyes, ears, nose, throat"
+            },
+            {
+              "id": "qiP4n59XLoSq",
+              "ref": "e4ad6c4e-df09-40a5-9ed2-f14f1e84f5f9",
+              "label": "Kidney, bladder, urinary, reproductive organ, breast of prostate disorder"
+            },
+            {
+              "id": "RXgUtHAjQ19r",
+              "ref": "40380910-3fe2-47ac-ac37-a7cad3dc3a70",
+              "label": "AIDS, HIV, or any other disorder of the immune system"
+            },
+            {
+              "id": "0fqCLBEefmfa",
+              "ref": "fd472fa6-4d2d-447b-aaca-08971d4cff2e",
+              "label": "None of these"
+            },
+            {
+              "id": "rwrI67AxQfCd",
+              "ref": "6a292414-1e5b-44b1-83db-0f29fecaa0f8",
+              "label": "I don't know / prefer not to answer"
+            }
+          ]
+        },
+        {
+          "id": "bKyDKGW7quRY",
+          "ref": "clientInjuriesList",
+          "type": "multiple_choice",
+          "title": "In the past 10 years, have you experienced any significant orthopedic surgeries, injuries, or chronic conditions related to the following?",
+          "properties": {},
+          "allow_multiple_selections": true,
+          "choices": [
+            {
+              "id": "71shwRpljAPP",
+              "ref": "d00cbfd9-facd-4897-a7c6-7334f06deb02",
+              "label": "Knee (e.g., knee replacement, ACL tear)"
+            },
+            {
+              "id": "glBqEJs77wEA",
+              "ref": "4e777114-f96b-48f3-ab3f-6d3f5a2893e4",
+              "label": "Ankle (e.g., ankle fracture, ligament damage)"
+            },
+            {
+              "id": "pEQ0Ti00VcEZ",
+              "ref": "f9123266-85f5-46ee-9672-585942499b65",
+              "label": "Hip (e.g., hip replacement, hip impingement)"
+            },
+            {
+              "id": "1o25a020bgS8",
+              "ref": "13e99fdf-aa20-400f-8a25-c83d9f3f82c1",
+              "label": "Back (e.g., spinal surgery, herniated disc)"
+            },
+            {
+              "id": "vfHO4SED847R",
+              "ref": "2de0425a-e8dd-4483-ac4a-ca533febcaae",
+              "label": "Shoulder (e.g., rotator cuff tear, frozen surgery)"
+            },
+            {
+              "id": "81BvglWdslsZ",
+              "ref": "237a7664-6e3c-4132-900b-7cf2b54824a5",
+              "label": "Neck (e.g., cervical spine surgery, neck fracture)"
+            },
+            {
+              "id": "tYcDQrgeKXbe",
+              "ref": "ec9d9ff7-01d7-499d-b1d0-67a35179f80d",
+              "label": "Wrist or Hand (e.g., carpal tunnel surgery, hand fracture)"
+            },
+            {
+              "id": "A5BrtVtysODL",
+              "ref": "50be220e-c29d-463d-be63-ed1dbd8a81ec",
+              "label": "Elbow (e.g., tennis elbow, elbow surgery)"
+            },
+            {
+              "id": "emYjou1nB3Vr",
+              "ref": "11f889e3-fd3b-4775-a3fd-b684b9b56fd4",
+              "label": "Foot (e.g., foot surgery, plantar fasciitis)"
+            },
+            {
+              "id": "E2wxlXFelxIn",
+              "ref": "e9a28729-bbe4-49fa-ab93-513fc9ee9d5e",
+              "label": "Chronic joint pain (e.g., arthritis, gout, bursitis)"
+            },
+            {
+              "id": "bpfA6sR7tz0A",
+              "ref": "9155b12d-b20a-47b2-afac-e9f588e11721",
+              "label": "None of these"
+            },
+            {
+              "id": "6zrOEh6Zy46I",
+              "ref": "2c8443e7-ab4b-4ae7-8ae2-cda548462d89",
+              "label": "I don't know / prefer not to answer"
+            }
+          ]
+        },
+        {
+          "id": "Xaui4oSNw3Rn",
+          "ref": "clientHighestDegree",
+          "type": "multiple_choice",
+          "title": "What is your highest level of education that you have completed?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "ykJeC3Oytu3t",
+              "ref": "628945d5-d484-4abc-8838-18345c8b1787",
+              "label": "No degree"
+            },
+            {
+              "id": "tohzpO3QaXnv",
+              "ref": "c3c70292-cadf-48dd-a666-b34d20ce9d25",
+              "label": "GED"
+            },
+            {
+              "id": "Kc2Hc68gmYqS",
+              "ref": "555d97f9-e1bb-4da1-b568-afa89ce557f1",
+              "label": "High school diploma"
+            },
+            {
+              "id": "VEpV3TQcdszk",
+              "ref": "82a6dea8-30e6-4844-b12f-aaad71c587ab",
+              "label": "Associates"
+            },
+            {
+              "id": "sVHYvb0wTYfs",
+              "ref": "0809c7bf-220d-4608-9dce-9eca9c8960de",
+              "label": "Bachelors"
+            },
+            {
+              "id": "H2sJLSDrLOYS",
+              "ref": "320ddb08-28e6-4764-920e-df8644e4d488",
+              "label": "Masters"
+            },
+            {
+              "id": "ArE6AhOLU3VR",
+              "ref": "5c722f96-ad5a-482b-a674-f7d1d5b41faf",
+              "label": "Law/MD/PhD"
+            },
+            {
+              "id": "su1nOoRJoxeb",
+              "ref": "8c54ff49-591f-424c-afa4-38347b609782",
+              "label": "Other"
+            },
+            {
+              "id": "hDLpB0xIqnN5",
+              "ref": "435e2ce0-357c-40b4-9d43-53c6eb50dd03",
+              "label": "I don't know / prefer not to answer"
+            }
+          ]
+        },
+        {
+          "id": "6o796Q97gYaH",
+          "ref": "householdPriorYearIncome",
+          "type": "number",
+          "title": "What was your total household income last year?",
+          "properties": {}
+        },
+        {
+          "id": "p8YsZDnabZrR",
+          "ref": "financialAssetTypes",
+          "type": "multiple_choice",
+          "title": "Please select all the types of assets you own. ",
+          "properties": {},
+          "allow_multiple_selections": true,
+          "choices": [
+            {
+              "id": "Qf8LIJlZR7cn",
+              "ref": "1818eff3-a3fe-4617-bf8f-39235a7afd39",
+              "label": "Checking or savings account"
+            },
+            {
+              "id": "g60X4gFyOY3i",
+              "ref": "2aad35fb-4147-4237-aee7-e3d2e0c6a680",
+              "label": "CDs, stocks, bonds, or mutual funds"
+            },
+            {
+              "id": "yUKhxNFEkSWo",
+              "ref": "228d9ee8-5e8e-48f2-ba43-edf7369e051b",
+              "label": "Individual Retirement Account (IRA), 401K, or other retirement savings vehicles"
+            },
+            {
+              "id": "iBPBVLVJVOOI",
+              "ref": "c571db61-d343-4fb0-8043-6e3abc436e1c",
+              "label": "Pension and/or social security income"
+            },
+            {
+              "id": "ryPY5igRVy8t",
+              "ref": "248f43f2-b472-4f2f-b1c0-916fc2de6d41",
+              "label": "Real estate that is your primary residence"
+            },
+            {
+              "id": "DnJIp0RsFpg2",
+              "ref": "7c810573-14c7-4947-b6b4-1f8f267346d6",
+              "label": "Real estate that is NOT your primary residence"
+            },
+            {
+              "id": "ExLyhNCWe8ec",
+              "ref": "97edc8da-beb2-47ab-88ae-8158c91cd8fe",
+              "label": "Interest or equity in a business or LLC"
+            },
+            {
+              "id": "6ZBSJiQBIreO",
+              "ref": "0a904ac4-bf04-4a23-9eab-aa4765573e14",
+              "label": "I don't know / prefer not to answer"
+            },
+            {
+              "id": "S1loorWhMcJu",
+              "ref": "4fc85c79-bc69-4382-b272-f6f6835571b4",
+              "label": "None of these"
+            }
+          ]
+        },
+        {
+          "id": "wSZ1d0qEjkjL",
+          "ref": "clientHealthPlanList",
+          "type": "multiple_choice",
+          "title": "Which health insurance plans cover you?",
+          "properties": {},
+          "allow_multiple_selections": true,
+          "choices": [
+            {
+              "id": "raBEWNJ0z2Rn",
+              "ref": "7e72ad9a-a64b-474d-b41b-1c185d327fc9",
+              "label": "Employer provided healthcare or COBRA"
+            },
+            {
+              "id": "d7TsqApcXJXj",
+              "ref": "9beba7b2-714a-4fe0-9991-751ef5a85c26",
+              "label": "Self employed healthcare, Individual insurance marketplace healthcare, or Associate Health Plans (AHPs)"
+            },
+            {
+              "id": "TZ78vxQIZdIq",
+              "ref": "60325e34-05bf-4127-ad53-93e1723437f2",
+              "label": "Medicare (any type)"
+            },
+            {
+              "id": "bjUiwxTdhJE5",
+              "ref": "b2361978-e65d-4be6-82af-620db82eb955",
+              "label": "Medicaid, which may go by a state specific program name (e.g. MediCal, MassHealth, Oregon Health Plan, etc.)"
+            },
+            {
+              "id": "pzYMLtGh1MX5",
+              "ref": "1b6365c2-45f1-4b47-9010-987fe85c188e",
+              "label": "Other"
+            },
+            {
+              "id": "MADyj4xmJRFo",
+              "ref": "39224f8f-7a01-4966-b98a-79ffa302e51b",
+              "label": "I don't know / prefer not to answer"
+            },
+            {
+              "id": "t2Noi3BTt83T",
+              "ref": "4b362d2d-337b-4215-9ed8-87e2dcf4d14f",
+              "label": "I don't have any medical insurance"
+            }
+          ]
+        },
+        {
+          "id": "wx894llypMAZ",
+          "ref": "clientCanAnswerForFather",
+          "type": "yes_no",
+          "title": "Can you answer questions about your biological father?",
+          "properties": {}
+        },
+        {
+          "id": "KTzrjMFySSub",
+          "ref": "clientFatherIsAlive",
+          "type": "multiple_choice",
+          "title": "Is your biological father alive today?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "rWjjWbFxzCOn",
+              "ref": "7d0eec92-c54c-462f-9707-0ae7ded03ebd",
+              "label": "Yes"
+            },
+            {
+              "id": "bsk6hImg1CQd",
+              "ref": "7aa16184-6b41-444a-9c65-0b90a3637aa6",
+              "label": "No"
+            },
+            {
+              "id": "1U998aQzGdKy",
+              "ref": "8ccd84da-d864-40e9-8c85-ada15cda56e2",
+              "label": "I don't know / prefer not to answer"
+            }
+          ]
+        },
+        {
+          "id": "Fzxvpog3uVq5",
+          "ref": "clientFatherAgeAtSurveyDate",
+          "type": "number",
+          "title": "How old is he?",
+          "properties": {}
+        },
+        {
+          "id": "VkudVRXcVFpO",
+          "ref": "clientFatherRequiredAssistance",
+          "type": "multiple_choice",
+          "title": "Has your father ever needed assistance with basic personal needs such as bathing, dressing, or eating?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "f5qILUwcjOFC",
+              "ref": "869067b7-e3b2-475c-a404-d5fc745253f2",
+              "label": "Yes"
+            },
+            {
+              "id": "Z9ZVbEgCy1le",
+              "ref": "3138e922-051e-4afa-806a-fe450ea1a3ed",
+              "label": "No"
+            },
+            {
+              "id": "mUF7ANswqr0T",
+              "ref": "f37c5457-96a5-492f-b2c0-0a71ddff5cb7",
+              "label": "I don't know / prefer not to answer"
+            }
+          ]
+        },
+        {
+          "id": "xMY4FC9LmCeG",
+          "ref": "clientFatherCardiovascularEver",
+          "type": "multiple_choice",
+          "title": "Did he ever have a stroke, heart attack, or other cardiovascular problems?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "ZTt8xCWHloei",
+              "ref": "2f0ad9a1-f817-4081-9292-baa529cc464d",
+              "label": "Yes"
+            },
+            {
+              "id": "PrEMmKaNpxzv",
+              "ref": "7dab8597-f3a0-4c63-9010-cb06358c79fa",
+              "label": "No"
+            },
+            {
+              "id": "tgLocG6HKAe3",
+              "ref": "60078ca9-be16-4fca-a266-73de29e5e409",
+              "label": "I don't know / prefer not to answer"
+            }
+          ]
+        },
+        {
+          "id": "yHboCMAp0G9n",
+          "ref": "clientFatherMemoryProblemsEver",
+          "type": "multiple_choice",
+          "title": "Did he ever have memory problems?",
+          "properties": {},
+          "choices": [
+            {
+              "id": "ljwx7dxysZd5",
+              "ref": "b18e9689-628e-4d0d-944b-bdd51cef1427",
+              "label": "Yes"
+            },
+            {
+              "id": "rffkkTsFPdm2",
+              "ref": "42ded59c-c6f9-4e4b-bcf9-f435f24d77fc",
+              "label": "No"
+            },
+            {
+              "id": "kTGw4h0aKWuv",
+              "ref": "ace71729-2698-4d31-9d3f-04bc4bdac12f",
+              "label": "I don't know / prefer not to answer"
+            }
+          ]
+        },
+        {
+          "id": "ryCzpiOB0MBj",
+          "ref": "clientCanAnswerForMother",
+          "type": "yes_no",
+          "title": "Can you answer questions about your biological mother?",
+          "properties": {}
+        }
+      ],
+      "endings": [
+        {
+          "id": "EI8gioChNkYF",
+          "ref": "f7fb863d-d636-4710-aaa7-5b2afc521eb5",
+          "title": "Our algorithms are running to predict your long-term care.\n\nYou'll get an email with a link to view the results within a minute.\n\nDon't see the email in your inbox? Please check your spam folder.",
+          "type": "thankyou_screen",
+          "properties": {
+            "description": "If you're an advisor you can go to your dashboard by clicking the button below.",
+            "button_text": "Advisor? Go to Dashboard",
+            "show_button": true,
+            "share_icons": false,
+            "button_mode": "redirect",
+            "redirect_url": "https://app.joinwaterlily.com"
+          }
+        }
+      ]
+    },
+    "answers": [
+      {
+        "type": "choice",
+        "choice": {
+          "id": "aE7NXlsjg0BU",
+          "label": "Long version",
+          "ref": "0ac664a8-7373-4340-b6d2-34c741dcf67f"
+        },
+        "field": {
+          "id": "OevrA1xT2KuQ",
+          "type": "multiple_choice",
+          "ref": "clientIntakeFormLength"
+        }
+      },
+      {
+        "type": "email",
+        "email": "tony@test.com",
+        "field": {
+          "id": "jtRJ41HEncJS",
+          "type": "email",
+          "ref": "clientEmail"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "ZKn0Kgg4Ic5P",
+          "label": "Partnered",
+          "ref": "b5832483-1c00-449a-b5a2-d87bef79a06f"
+        },
+        "field": {
+          "id": "2wUR6rBsfwS1",
+          "type": "multiple_choice",
+          "ref": "clientMaritalStatus"
+        }
+      },
+      {
+        "type": "text",
+        "text": "Pepper",
+        "field": {
+          "id": "UcqWeFyM6nq9",
+          "type": "short_text",
+          "ref": "partnerFirstName"
+        }
+      },
+      {
+        "type": "text",
+        "text": "Pots",
+        "field": {
+          "id": "0hk08YnsHYNS",
+          "type": "short_text",
+          "ref": "partnerLastName"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "GuBKCHhRlPqd",
+          "label": "Yes",
+          "ref": "46e86b95-7982-478c-87a5-3a438420bcd5"
+        },
+        "field": {
+          "id": "FCPe8t7Ve4YQ",
+          "type": "multiple_choice",
+          "ref": "householdPartnered"
+        }
+      },
+      {
+        "type": "number",
+        "number": 10,
+        "field": {
+          "id": "qocosF2QQORX",
+          "type": "number",
+          "ref": "householdHouseholdSize"
+        }
+      },
+      {
+        "type": "date",
+        "date": "1974-01-01",
+        "field": {
+          "id": "mAtgWAIFRnay",
+          "type": "date",
+          "ref": "clientBirthDate"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "j9BFRnWZwRO9",
+          "label": "Male",
+          "ref": "4f2770ef-e817-43ef-8808-9e0b76e71381"
+        },
+        "field": {
+          "id": "GIHJO3Z8Ru5F",
+          "type": "multiple_choice",
+          "ref": "clientGenderAtBirth"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "6z7z8Ya0KI4r",
+          "label": "No",
+          "ref": "54c51024-2054-4732-ba50-37c23449bfae"
+        },
+        "field": {
+          "id": "fXjjujhoaXVA",
+          "type": "multiple_choice",
+          "ref": "clientPreferDifferentPronouns"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "zAe1wkAyU8z3",
+          "label": "White or European (e.g., German, Irish, English, Italian, Polish, French, etc.)",
+          "ref": "23bf0b5a-504c-4936-b6d5-11466a87cb15"
+        },
+        "field": {
+          "id": "HXSitLQ1FalX",
+          "type": "multiple_choice",
+          "ref": "clientRace"
+        }
+      },
+      {
+        "type": "text",
+        "text": "98225",
+        "field": {
+          "id": "HekPoNnCde5z",
+          "type": "short_text",
+          "ref": "clientZipCode"
+        }
+      },
+      {
+        "type": "boolean",
+        "boolean": false,
+        "field": {
+          "id": "8mDvhyHg40va",
+          "type": "yes_no",
+          "ref": "clientHasDifferentLtcZipCode"
+        }
+      },
+      {
+        "type": "number",
+        "number": 300000,
+        "field": {
+          "id": "oICTjX3O6t8G",
+          "type": "number",
+          "ref": "householdTotalAssetsValue"
+        }
+      },
+      {
+        "type": "number",
+        "number": 30000,
+        "field": {
+          "id": "YFdlELcFGH7e",
+          "type": "number",
+          "ref": "householdLiquidAssetsValue"
+        }
+      },
+      {
+        "type": "number",
+        "number": 8,
+        "field": {
+          "id": "3HKN9wcWFcrS",
+          "type": "number",
+          "ref": "householdLiquidAssetsAnnualGrowthRate"
+        }
+      },
+      {
+        "type": "number",
+        "number": 5,
+        "field": {
+          "id": "u4ylFvjOzzki",
+          "type": "number",
+          "ref": "clientLivingSiblingsCount"
+        }
+      },
+      {
+        "type": "number",
+        "number": 5,
+        "field": {
+          "id": "UzSjnmNE5kCM",
+          "type": "number",
+          "ref": "householdLivingChildrenCount"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "sJn9Ueb93vAP",
+          "label": "I prefer a comprehensive care setting where all my needs are managed and I can receive constant care.",
+          "ref": "262ee1e3-d824-4bf6-bf75-97604f4d6d37"
+        },
+        "field": {
+          "id": "dkxctYj926LS",
+          "type": "multiple_choice",
+          "ref": "clientIndependencePreference"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "slEIHbY9MDL2",
+          "label": "I prefer no direct care from family members, I will rely solely upon professional care providers.",
+          "ref": "3868c53c-df7e-4f06-ad3d-7dd163b7dcd4"
+        },
+        "field": {
+          "id": "5E5RYvisuDBF",
+          "type": "multiple_choice",
+          "ref": "clientFamilyInvolvementPreference"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "Q3gPqHAEMHgo",
+          "label": "While cost is important, I want to balance my preferences for aging as much as possible.",
+          "ref": "03eea526-0d60-4c72-bbd4-f91febd2dc94"
+        },
+        "field": {
+          "id": "Un5hPKtINOZq",
+          "type": "multiple_choice",
+          "ref": "clientFinancialSecurityPreference"
+        }
+      },
+      {
+        "type": "choices",
+        "choices": {
+          "ids": [
+            "fY1skHfPjJbB",
+            "lsC7ynrxjBzI",
+            "s2Wvuv3LfCat",
+            "gCcRXpfOdDoU",
+            "FRX9jHThdIMK",
+            "QPLIkvbb4eNc"
+          ],
+          "labels": [
+            "Advance Directive (or Healthcare Directive) / Advance statements",
+            "Living Wills / CPR & DNR",
+            "Trusts",
+            "Durable Healthcare Power of Attorney/ Medical POA",
+            "Conservatorship / Durable POA - control of assets / Durable Power of Attorney for Assets",
+            "Funeral Arrangements"
+          ],
+          "refs": [
+            "eddda0bb-578d-4181-b231-156a52ae21e7",
+            "c9b664f2-f31f-48c8-a696-615c49898976",
+            "59b3dc05-5406-4b8e-8538-d8b6b708367a",
+            "df66e1c9-3eec-46d9-87aa-813fe3435309",
+            "998460c9-45d8-4347-93ca-87542dacc3d7",
+            "7f006bb4-2091-4648-84ae-56705606f34b"
+          ]
+        },
+        "field": {
+          "id": "VqLIAKOG4pwm",
+          "type": "multiple_choice",
+          "ref": "legalDocuments"
+        }
+      },
+      {
+        "type": "choices",
+        "choices": {
+          "ids": [
+            "xh7BrmdGdV09",
+            "yTLLu5kkvtY7",
+            "EQvx64laLK0s",
+            "PmwSNCaxKMiK"
+          ],
+          "labels": [
+            "Financial advisor",
+            "Estate planner",
+            "Care coordinator",
+            "Insurance broker"
+          ],
+          "refs": [
+            "d3aac622-8419-4260-b023-627ce853337d",
+            "c674cc82-1b2a-43dd-907e-24898a75e794",
+            "deda0c81-2bfb-416f-ba10-9599cd6803dd",
+            "6cc96031-55fd-4584-8bbd-b00a87c0ebb7"
+          ]
+        },
+        "field": {
+          "id": "eGqTMycyQ9at",
+          "type": "multiple_choice",
+          "ref": "clientProfessionalSupportNetworkList"
+        }
+      },
+      {
+        "type": "choices",
+        "choices": {
+          "ids": [
+            "TvyrgU27T7nv",
+            "X8RNsLz7sLaI",
+            "ZRQwovduwtRd"
+          ],
+          "labels": [
+            "I felt sad",
+            "I experienced restless sleep",
+            "I felt lonely"
+          ],
+          "refs": [
+            "ac05b04d-6ac3-4fb0-89d0-f16943e411cf",
+            "95a3432a-9a77-455e-8151-389d5282f9aa",
+            "1ed2dfb9-2e4d-49c5-92c4-7ceba1b7a827"
+          ]
+        },
+        "field": {
+          "id": "GNSbNGVfXX4a",
+          "type": "multiple_choice",
+          "ref": "clientMentalHealthIssuesList"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "AWlcxHcwJ4ve",
+          "label": "No",
+          "ref": "192f2229-be45-4f2f-94d5-851df4e3c0df"
+        },
+        "field": {
+          "id": "P26xykpPmqJY",
+          "type": "multiple_choice",
+          "ref": "clientSmokerEver"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "7l1xS8ks2hot",
+          "label": "No",
+          "ref": "3e142bc0-45d4-45f9-aff5-400f2b4ba0b8"
+        },
+        "field": {
+          "id": "yc1K2XUANEe5",
+          "type": "multiple_choice",
+          "ref": "clientUsesRegularPrescriptionDrugs"
+        }
+      },
+      {
+        "type": "number",
+        "number": 153,
+        "field": {
+          "id": "qDKdLNB4lvbp",
+          "type": "number",
+          "ref": "clientWeightPounds"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "qkwsKnplYqPY",
+          "label": "5'7\"",
+          "ref": "38cca2cf-d74e-4b47-aaad-46ae24b52367"
+        },
+        "field": {
+          "id": "cSa9ZzFPtRI8",
+          "type": "dropdown",
+          "ref": "clientHeightInches"
+        }
+      },
+      {
+        "type": "number",
+        "number": 0,
+        "field": {
+          "id": "U1zxq6gjyiZe",
+          "type": "number",
+          "ref": "clientPriorTwoYearHospitalizationCount"
+        }
+      },
+      {
+        "type": "boolean",
+        "boolean": false,
+        "field": {
+          "id": "9d4IeYm09RoD",
+          "type": "yes_no",
+          "ref": "clientDifficultyWithTasks"
+        }
+      },
+      {
+        "type": "choices",
+        "choices": {
+          "ids": [
+            "Um0s9QBwyidG",
+            "LH3K7c8Itfpt"
+          ],
+          "labels": [
+            "High blood pressure",
+            "Emotional, nervous, or psychiatric conditions (e.g. depression, anxiety, bipolar or borderline personality disorders, Schizophrenia)"
+          ],
+          "refs": [
+            "4ac0dcfe-9faa-4021-8b79-13e21c0f5dd5",
+            "badbb660-2f86-481a-ac6c-1b82a8ebd26b"
+          ]
+        },
+        "field": {
+          "id": "jkwRe6m1gozJ",
+          "type": "multiple_choice",
+          "ref": "clientDiagnosesList"
+        }
+      },
+      {
+        "type": "choices",
+        "choices": {
+          "ids": [
+            "71shwRpljAPP"
+          ],
+          "labels": [
+            "Knee (e.g., knee replacement, ACL tear)"
+          ],
+          "refs": [
+            "d00cbfd9-facd-4897-a7c6-7334f06deb02"
+          ]
+        },
+        "field": {
+          "id": "bKyDKGW7quRY",
+          "type": "multiple_choice",
+          "ref": "clientInjuriesList"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "H2sJLSDrLOYS",
+          "label": "Masters",
+          "ref": "320ddb08-28e6-4764-920e-df8644e4d488"
+        },
+        "field": {
+          "id": "Xaui4oSNw3Rn",
+          "type": "multiple_choice",
+          "ref": "clientHighestDegree"
+        }
+      },
+      {
+        "type": "number",
+        "number": 100000,
+        "field": {
+          "id": "6o796Q97gYaH",
+          "type": "number",
+          "ref": "householdPriorYearIncome"
+        }
+      },
+      {
+        "type": "choices",
+        "choices": {
+          "ids": [
+            "Qf8LIJlZR7cn",
+            "g60X4gFyOY3i",
+            "yUKhxNFEkSWo",
+            "iBPBVLVJVOOI",
+            "ryPY5igRVy8t",
+            "DnJIp0RsFpg2",
+            "ExLyhNCWe8ec"
+          ],
+          "labels": [
+            "Checking or savings account",
+            "CDs, stocks, bonds, or mutual funds",
+            "Individual Retirement Account (IRA), 401K, or other retirement savings vehicles",
+            "Pension and/or social security income",
+            "Real estate that is your primary residence",
+            "Real estate that is NOT your primary residence",
+            "Interest or equity in a business or LLC"
+          ],
+          "refs": [
+            "1818eff3-a3fe-4617-bf8f-39235a7afd39",
+            "2aad35fb-4147-4237-aee7-e3d2e0c6a680",
+            "228d9ee8-5e8e-48f2-ba43-edf7369e051b",
+            "c571db61-d343-4fb0-8043-6e3abc436e1c",
+            "248f43f2-b472-4f2f-b1c0-916fc2de6d41",
+            "7c810573-14c7-4947-b6b4-1f8f267346d6",
+            "97edc8da-beb2-47ab-88ae-8158c91cd8fe"
+          ]
+        },
+        "field": {
+          "id": "p8YsZDnabZrR",
+          "type": "multiple_choice",
+          "ref": "financialAssetTypes"
+        }
+      },
+      {
+        "type": "choices",
+        "choices": {
+          "ids": [
+            "d7TsqApcXJXj"
+          ],
+          "labels": [
+            "Self employed healthcare, Individual insurance marketplace healthcare, or Associate Health Plans (AHPs)"
+          ],
+          "refs": [
+            "9beba7b2-714a-4fe0-9991-751ef5a85c26"
+          ]
+        },
+        "field": {
+          "id": "wSZ1d0qEjkjL",
+          "type": "multiple_choice",
+          "ref": "clientHealthPlanList"
+        }
+      },
+      {
+        "type": "boolean",
+        "boolean": true,
+        "field": {
+          "id": "wx894llypMAZ",
+          "type": "yes_no",
+          "ref": "clientCanAnswerForFather"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "rWjjWbFxzCOn",
+          "label": "Yes",
+          "ref": "7d0eec92-c54c-462f-9707-0ae7ded03ebd"
+        },
+        "field": {
+          "id": "KTzrjMFySSub",
+          "type": "multiple_choice",
+          "ref": "clientFatherIsAlive"
+        }
+      },
+      {
+        "type": "number",
+        "number": 70,
+        "field": {
+          "id": "Fzxvpog3uVq5",
+          "type": "number",
+          "ref": "clientFatherAgeAtSurveyDate"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "Z9ZVbEgCy1le",
+          "label": "No",
+          "ref": "3138e922-051e-4afa-806a-fe450ea1a3ed"
+        },
+        "field": {
+          "id": "VkudVRXcVFpO",
+          "type": "multiple_choice",
+          "ref": "clientFatherRequiredAssistance"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "PrEMmKaNpxzv",
+          "label": "No",
+          "ref": "7dab8597-f3a0-4c63-9010-cb06358c79fa"
+        },
+        "field": {
+          "id": "xMY4FC9LmCeG",
+          "type": "multiple_choice",
+          "ref": "clientFatherCardiovascularEver"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "id": "rffkkTsFPdm2",
+          "label": "No",
+          "ref": "42ded59c-c6f9-4e4b-bcf9-f435f24d77fc"
+        },
+        "field": {
+          "id": "yHboCMAp0G9n",
+          "type": "multiple_choice",
+          "ref": "clientFatherMemoryProblemsEver"
+        }
+      },
+      {
+        "type": "boolean",
+        "boolean": false,
+        "field": {
+          "id": "ryCzpiOB0MBj",
+          "type": "yes_no",
+          "ref": "clientCanAnswerForMother"
+        }
+      }
+    ],
+    "ending": {
+      "id": "EI8gioChNkYF",
+      "ref": "f7fb863d-d636-4710-aaa7-5b2afc521eb5"
+    }
+  }
+}

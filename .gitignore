@@ -1,5 +1,7 @@
 # test clients
 packages/server/test-integration/intakeSurvey/*
+!packages/server/test-integration/intakeSurvey/test-client-1.json
+!packages/server/test-integration/intakeSurvey/test-client-2.json
 
 *TEMP*
 
