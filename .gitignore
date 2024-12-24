@@ -51,7 +51,6 @@ node_modules/
 web_modules/
 
 # Local configuration
-.env
 .env.development.local
 .env.test.local
 .env.production.local
