@@ -31,7 +31,6 @@ export * from './addCustomQueryParams';
 export * from './apiReponseErrorIncludes';
 export * from './appModel';
 export * from './applySupportProviderHoursBreakdown';
-export * from './assertNotEmpty';
 export * from './assertNotNull';
 export * from './assertSameArrays';
 export * from './assertSameKeys';
